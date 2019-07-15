@@ -45,3 +45,6 @@ June 2016, Cool Stars 19, Contributed Poster
 April 2015, BECSS, Bristol, Contributed Talk
 
 March 2015, Milky Way Astrophysics from Wide-Field Surveys, Contributed Talk
+
+---
+Return to [homepage](index.md)
