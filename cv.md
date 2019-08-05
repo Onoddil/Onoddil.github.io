@@ -27,7 +27,7 @@ Hatchell J., Wilson T., et al., 2013, MNRAS, 429, 10; The JCMT Gould Belt Survey
 Rees J., Wilson Tom J., et al., in prep.; Pre-main-sequence Isochrones -- IV. the Age of Taurus and Increased Disc Lifetimes in Low-Density Environments
 
 ## Talks and Conferences
-### links to talk slides given below where available
+Links to talk slides given below where available
 
 July 2019, Python in Astronomy 19, Contributed [Talk](Talks/photutils_pyastro19_tomjwilson.pdf)
 
