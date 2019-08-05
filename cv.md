@@ -27,22 +27,29 @@ Hatchell J., Wilson T., et al., 2013, MNRAS, 429, 10; The JCMT Gould Belt Survey
 Rees J., Wilson Tom J., et al., in prep.; Pre-main-sequence Isochrones -- IV. the Age of Taurus and Increased Disc Lifetimes in Low-Density Environments
 
 ## Talks and Conferences
+### links to talk slides given below where available
 
-June 2019, STScI, HotSci@STScI Colloquia, Contributed Seminar Talk
+July 2019, Python in Astronomy 19, Contributed [Talk](Talks/photutils_pyastro19_tomjwilson.pdf)
 
-March 2019, STScI, TESS Data Workshop, Contributed Talk
+June 2019, STScI, HotSci@STScI Colloquia, Contributed Seminar [Talk](Talks/UnresolvedContaminants_hotsci_tomwilson.pdf)
 
-February 2019, UNLV BUFFALO 2019 Meeting, Contributed Talk
+March 2019, STScI, Friday Science Coffee, Contributed Seminar [Talk](Talks/science_coffee_towilson.pdf)
 
-March 2018, Science with Precision Astrometry, Contributed Poster
+February 2019, TESS Data Workshop, STScI, Contributed [Talk](Talks/UnresolvedContaminants_TESS_tomwilson.pdf)
 
-September 2017, Cardiff Star Formation Workshop, Contributed Talk
+February 2019, UNLV BUFFALO 2019 Meeting, Contributed [Talk](Talks/BUFFALO_2019.pdf)
 
-July 2016, NASA Goddard Space Flight Center, Invited Seminar Talk
+May 2018, Exeter, First Year PhD Development Day, Invited [Talk](Talks/firstyeardevelopmentday_tomjwilson_python_31518.pdf)
+
+March 2018, Science with Precision Astrometry, Contributed [Poster](Talks/TomJWilson_SwPAPoster.pdf)
+
+September 2017, Cardiff Star Formation Workshop, Contributed [Talk](Talks/UnresolvedContaminants_Cardiff19917.pdf)
+
+July 2016, NASA Goddard Space Flight Center, Invited Seminar [Talk](Talks/Goddard.pdf)
 
 June 2016, Cool Stars 19, Contributed Poster
 
-April 2015, BECSS, Bristol, Contributed Talk
+April 2015, BECSS Bristol, Contributed [Talk](Talks/BECSS.pdf)
 
 March 2015, Milky Way Astrophysics from Wide-Field Surveys, Contributed Talk
 
