@@ -2,6 +2,16 @@
 
 Click [here](https://onoddil.github.io/CV/tom_j_wilson_cv.pdf) to download Tom J. Wilson's CV, and [here](https://ui.adsabs.harvard.edu/search/fl=identifier%2C%5Bcitations%5D%2Cabstract%2Caff%2Cauthor%2Cbibcode%2Ccitation_count%2Ccomment%2Cdoi%2Cid%2Ckeyword%2Cpage%2Cproperty%2Cpub%2Cpub_raw%2Cpubdate%2Cpubnote%2Cread_count%2Ctitle%2Cvolume%2Clinks_data%2Cesources%2Cdata%2Cemail%2Cdoctype&q=%3Dauthor%3A%22wilson%2C%20tom%20j%22%20OR%20author%3A(%22wilson%2C%20t%22%20AND%20%22hatchell%2C%20j%22)%20OR%20author%3A(%22wilson%2C%20t%20j%22%20AND%20%22naylor%2C%20t%22)%20OR%20author%3A(%22wilson%2C%20t%22%20AND%20%22wakeford%2C%20h%22)&rows=25&sort=date%20desc%2C%20bibcode%20desc&start=0&p_=0) to view Tom J. Wilson's publications on ADS.
 
+## Professional Work and Education
+
+Postdoctoral Research Fellow, University of Exeter, 2019-
+
+Postdoctoral Researcher, Space Telescope Science Institute, 2018-2019
+
+PhD in Physics, University of Exeter, 2013-2018
+
+MPhys in Physics with Astrophysics, First Class Honours, University of Exeter, 2009-2013
+
 ## First Author Publications
 
 Wilson Tom J., Naylor T., 2018, MNRAS, 481, 2148; A Contaminant-Free Catalogue of _Gaia_ DR2-_WISE_ Galactic Plane Matches: Including the Effects of Crowding in the Cross-Matching of Photometric Catalogues
