@@ -22,6 +22,12 @@ Wilson Tom J., Naylor T., 2017, MNRAS, 469, 2517; The Effect of Unresolved Conta
 
 ## Co-Author Publications
 
+Wakeford H. R., Sing D. K., Stevenson K. B., Lewis N. K., Pirzkal N., Wilson T. J., et al., 2020, AJ, 159, 204, Into the UV: A Precise Transmission Spectrum of HAT-P-41b Using Hubble's WFC3/UVIS G280 Grism
+
+Steinhardt C., ..., Wilson T. J., et al., 2020, ApJS, 247, 64, The Buffalo HST Survey
+
+Bradley L., Sipőcz B., Robitaille T., Tollerud E., Vinícius Z., Deil C., Barbary K., Wilson T. J., et al, 2019, DOI:0.5281/zenodo.3568287, astropy/photutils: v0.7, v0.7.1, v0.7.2
+
 Wakeford H. R., Wilson T. J., et al., 2019, RNAAS, 3, 7; Exoplanet Atmosphere Forecast: Observers Should Expect Spectroscopic Transmission Features to be Muted to 33%
 
 Wakeford H. R., Lewis N. K., Fowler J., Bruno G., Wilson T. J., et al., 2019, AJ, 157, 11; Disentangling the Planet from the Star in Late-Type M Dwarfs: A Case Study of TRAPPIST-1g
@@ -34,7 +40,7 @@ Rees J., Wilson T., et al., 2016, IAUS, 314, 205; The Age of Taurus: Environment
 
 Hatchell J., Wilson T., et al., 2013, MNRAS, 429, 10; The JCMT Gould Belt Survey: SCUBA-2 Observations of Radiative Feedback in NGC 1333
 
-Rees J., Wilson Tom J., et al., in prep.; Pre-main-sequence Isochrones -- IV. the Age of Taurus and Increased Disc Lifetimes in Low-Density Environments
+[//]: # Rees J., Wilson Tom J., et al., in prep.; Pre-main-sequence Isochrones -- IV. the Age of Taurus and Increased Disc Lifetimes in Low-Density Environments
 
 ## Talks and Conferences
 Links to talk slides given below where available
