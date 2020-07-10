@@ -24,6 +24,7 @@
 \usepackage[linkcolor=black,colorlinks=true,urlcolor=cyan]{hyperref}
 \usepackage{helvet} % Default font is the helvetica postscript font
 %\usepackage{newcent} % To change the default font to the new century schoolbook postscript font uncomment this line and comment the one above
+\usepackage{enumitem}
 
 \topmargin=-0.7in
 \oddsidemargin -.6in
@@ -61,27 +62,73 @@
 %----------------------------------------------------------------------------------------
 %	EDUCATION SECTION
 %----------------------------------------------------------------------------------------
-\vspace{-14pt}
+\vspace{-9pt}
 \section{PROFESSIONAL WORK}
 
-{\sl Postdoctoral Research Fellow}, University of Exeter, 2019-\\
-Creation of software pipeline for cross-matching external photometric catalogues to LSST datasets as part of LSST:UK consortium. Requires development of computationally efficient and precise codebase to ensure accurate photometry and astrometry can be obtained for a set of photometric catalogues. Awarded STFC grant.
-
-{\sl Postdoctoral Researcher}, Space Telescope Science Institute, 2018-2019\\
-Analysis and optimisation of supernovae survey for future WFIRST observing strategies. Involves solving maximisation problem of information content analysis, and robust statistical analysis of the fitting and modelling of supernovae lightcurves. Software development for \texttt{photutils}, an \texttt{astropy}-affiliated python package, focussing on analysis tools for PSF photometry. Requires code testing and improvements, package maintenance and distribution, and documentation development.
+{\sl Postdoctoral Research Fellow}, University of Exeter, 2019-
+\begin{itemize}[noitemsep,topsep=0pt,parsep=0pt,partopsep=0pt]
+\item Creation of software pipeline for cross-matching external photometric catalogues to LSST datasets as part of LSST:UK consortium
+\item Analysis of preliminary LSST datasets to ensure statistical robustness and correct for potential effects in datasets for scientific application
+\item Awarded STFC grant
+\end{itemize}
+\vspace{-10pt}
+{\sl Postdoctoral Researcher}, Space Telescope Science Institute, 2018-2019
+\begin{itemize}[noitemsep,topsep=0pt,parsep=0pt,partopsep=0pt]
+\item Analysis and optimisation of supernovae survey for future WFIRST observing strategies
+\item Involved solving maximisation problem of information content analysis, and robust statistical analysis of the fitting and modelling of supernovae lightcurves
+\item Software development for \texttt{photutils}, an \texttt{astropy}-affiliated python package, focussing on analysis tools for PSF photometry
+\end{itemize}
 \vspace{-5pt}
 \section{EDUCATION}
 
-{\sl PhD in Physics}, University of Exeter, 2013-2018\\
-Main focus of thesis surrounds the effects of blended stars on the astrometric and photometric properties of stars in crowded Galactic fields. Characterisation of photometric catalogues by angular resolution and survey completeness explored, allowing for quantitative comparisons of the crowding suffered. A probability-based Bayesian cross-matching process was constructed, allowing for robust determination of detections across catalogues. Analysed the effect crowding has on the \textit{WISE} catalogue. \\Awarded STFC PhD Studentship. Supervisor: Prof. Tim Naylor
-
-{\sl MPhys in Physics with Astrophysics,} Master's Dissertation, University of Exeter, 2012-2013 \\
-Analysis of young stellar cluster ages using the radiative-convective gap as a distance and extinction independent variable. Subsequent analysis of the initial mass function to explore effects of age and distance on masses in stellar clusters. Characterised the effect the choice of magnitudes used in a colour-colour diagram has on the interstellar extinction-age dependency, determining the optimal CCD for age independent extinction derivations for low mass young pre-main-sequence stars. Supervisor: Prof. Tim Naylor
-
-{\sl College Summer Internship}, University of Exeter, 2012\\
-Six week undergraduate work experience during undergraduate degree. Initially involved improvements to data reduction for JCMT 450$\mu$m and 850$\mu$m observations. Subsequent work on the construction of temperature and dust $\beta$ maps from these observations, supplemented with \textit{Herschel} data in several cases, concluding with analysis of NGC1333.\\Supervisor: Dr Jennifer Hatchell
-
+{\sl PhD in Physics}, University of Exeter, 2013-2018 --- Supervisor: Prof. Tim Naylor
+\begin{itemize}[noitemsep,topsep=0pt,parsep=0pt,partopsep=0pt]
+\item Explored the effects of blended stars on the astrometric and photometric properties of stars in crowded Galactic fields
+\item Characterisation of photometric catalogues by angular resolution and survey completeness explored, allowing for quantitative comparisons of the crowding suffered
+\item Analysed the effect crowding has on the \textit{WISE} catalogue
+\item Awarded STFC PhD Studentship
+\end{itemize}
+\vspace{-10pt}
+{\sl Master's Dissertation}, University of Exeter, 2012-2013 --- Supervisor: Prof. Tim Naylor
+\begin{itemize}[noitemsep,topsep=0pt,parsep=0pt,partopsep=0pt]
+\item Analysis of young stellar cluster ages using the radiative-convective gap as a distance and extinction independent variable
+\item Analysis of the initial mass function, exploring effects of age/distance on masses in stellar clusters
+\item Characterised the effect the choice of magnitudes used in a colour-colour diagram has on the interstellar extinction-age dependency, determining the optimal CCD for age independent extinction derivations for low mass young pre-main-sequence stars
+\end{itemize}
+\vspace{-10pt}
+{\sl College Summer Internship}, University of Exeter, 2012 --- Supervisor: Dr Jennifer Hatchell
+\begin{itemize}[noitemsep,topsep=0pt,parsep=0pt,partopsep=0pt]
+\item Work on the construction of temperature and dust $\beta$ maps from JCMT 450$\mu$m and 850$\mu$m observations, supplemented with \textit{Herschel} data, and analysis of NGC1333
+\end{itemize}
+\vspace{-10pt}
 {\sl MPhys in Physics with Astrophysics,} First Class Honours, University of Exeter, 2009-2013
+
+%----------------------------------------------------------------------------------------
+%	COMPUTER SKILLS SECTION
+%----------------------------------------------------------------------------------------
+\vspace{-5pt}
+\section{SOFTWARE ENGINEERING}
+
+Developer for the \texttt{astropy} \texttt{photutils} package
+\begin{itemize}[noitemsep,topsep=0pt,parsep=0pt,partopsep=0pt]
+\item 8th highest contribution (2nd highest 2018-2020) to the community-driven, open source software
+\item Code tests and feature improvements, package maintenance and distribution, and documentation development
+\end{itemize}
+\vspace{-10pt}
+Lead developer of the \texttt{macauff} python package
+\begin{itemize}[noitemsep,topsep=0pt,parsep=0pt,partopsep=0pt]
+\item Development of computationally efficient and precise codebase to ensure accurate photometry and astrometry can be obtained for a set of cross-matched photometric catalogues
+\item Writing entire project end-to-end, including creation of continuous integration suite, documentation, and class-based python and fortran code
+\end{itemize}
+\vspace{-10pt}
+Other project highlights:
+\begin{itemize}[noitemsep,topsep=0pt,parsep=0pt,partopsep=0pt]
+\item Code for simulations of WFIRST supernovae lightcurves and characterisation efficiency
+\item Improvements to data reduction for JCMT observations, and writing of key data analysis pipeline
+\end{itemize}
+\vspace{-10pt}
+Main programming strengths: python (\texttt{numpy}, \texttt{scipy}, \texttt{astropy}, \texttt{matplotlib}), fortran (\texttt{openmp}), statistical analysis and application
+
 %----------------------------------------------------------------------------------------
 %	PUBLICATION SECTION
 %----------------------------------------------------------------------------------------
@@ -89,30 +136,19 @@ Six week undergraduate work experience during undergraduate degree. Initially in
 \vspace{-5pt}
 \section{FIRST AUTHOR PUBLICATIONS}
 
-Wilson Tom J., Naylor T., 2018, MNRAS, 481, 2148; ``A Contaminant-Free Catalogue of \textit{Gaia} DR2-\textit{WISE} Galactic Plane Matches: Including the Effects of Crowding in the Cross-Matching of Photometric Catalogues''
-
-Wilson Tom J., Naylor T., 2018, MNRAS, 473, 5570; ``Improving Catalogue Matching By Supplementing Astrometry with Additional Photometric Information''
-
+Wilson Tom J., Naylor T., 2018, MNRAS, 481, 2148; ``A Contaminant-Free Catalogue of \textit{Gaia} DR2-\textit{WISE} Galactic Plane Matches: Including the Effects of Crowding in the Cross-Matching of Photometric Catalogues''\vspace{2pt}\\
+Wilson Tom J., Naylor T., 2018, MNRAS, 473, 5570; ``Improving Catalogue Matching By Supplementing Astrometry with Additional Photometric Information''\vspace{2pt}\\
 Wilson Tom J., Naylor T., 2017, MNRAS, 469, 2517; ``The Effect of Unresolved Contaminant Stars on the Cross-matching of Photometric Catalogues''
 \vspace{-5pt}
 \section{CO-AUTHOR PUBLICATIONS}
-
-Wakeford H. R., Sing D. K., Stevenson K. B., Lewis N. K., Pirzkal N., Wilson T. J., et al., 2020, AJ, 159, 204, ``Into the UV: A Precise Transmission Spectrum of HAT-P-41b Using Hubble's WFC3/UVIS G280 Grism''
-
-Steinhardt C., ..., Wilson T. J., et al., 2020, ApJS, 247, 64, ``The Buffalo HST Survey''
-
-Bradley L., Sip\H{o}cz B., Robitaille T., Tollerud E., Vinícius Z., Deil C., Barbary K., Wilson T. J., et al, 2019, 10.5281/zenodo.3568287, ``astropy/photutils: v0.7, v0.7,1, v0.7.2''
-
-Wakeford H. R., Wilson T. J., et al., 2019, RNAAS, 3, 7; ``Exoplanet Atmosphere Forecast: Observers Should Expect Spectroscopic Transmission Features to be Muted to 33\%''
-
-Wakeford H. R., Lewis N. K., Fowler J., Bruno G., Wilson T. J., et al., 2019, AJ, 157, 11; ``Disentangling the Planet from the Star in Late-Type M Dwarfs: A Case Study of TRAPPIST-1g''
-
-Wakeford H. R., Sing D. K., Deming D., Lewis N. K., Goyal J., Wilson T. J., et al., 2018, AJ, 155, 29; ``The Complete Transmission Spectrum of WASP-39b with a Precise Water Constraint''
-
-Rumble D., Hatchell J., Pattle K., Kirk H., Wilson T., et al., 2016, MNRAS, 460, 4150; ``The JCMT Gould Belt Survey: Evidence for Radiative Heating and Contamination in the W40 Complex''
-
-Rees J., Wilson T., et al., 2016, IAUS, 314, 205; ``The Age of Taurus: Environmental Effects on Disc Lifetimes''
-
+Wakeford H. R., Sing D. K., Stevenson K. B., Lewis N. K., Pirzkal N., Wilson T. J., et al., 2020, AJ, 159, 204; ``Into the UV: A Precise Transmission Spectrum of HAT-P-41b Using Hubble's WFC3/UVIS G280 Grism''\vspace{2pt}\\
+Steinhardt C., ..., Wilson T. J., et al., 2020, ApJS, 247, 64; ``The Buffalo HST Survey''\vspace{2pt}\\
+Bradley L., Sip\H{o}cz B., Robitaille T., Tollerud E., Vinícius Z., Deil C., Barbary K., Wilson T. J., et al, 2019, 10.5281/zenodo.3568287; ``astropy/photutils: v0.7, v0.7,1, v0.7.2''\vspace{2pt}\\
+Wakeford H. R., Wilson T. J., et al., 2019, RNAAS, 3, 7; ``Exoplanet Atmosphere Forecast: Observers Should Expect Spectroscopic Transmission Features to be Muted to 33\%''\vspace{2pt}\\
+Wakeford H. R., Lewis N. K., Fowler J., Bruno G., Wilson T. J., et al., 2019, AJ, 157, 11; ``Disentangling the Planet from the Star in Late-Type M Dwarfs: A Case Study of TRAPPIST-1g''\vspace{2pt}\\
+Wakeford H. R., Sing D. K., Deming D., Lewis N. K., Goyal J., Wilson T. J., et al., 2018, AJ, 155, 29; ``The Complete Transmission Spectrum of WASP-39b with a Precise Water Constraint''\vspace{2pt}\\
+Rumble D., Hatchell J., Pattle K., Kirk H., Wilson T., et al., 2016, MNRAS, 460, 4150; ``The JCMT Gould Belt Survey: Evidence for Radiative Heating and Contamination in the W40 Complex''\vspace{2pt}\\
+Rees J., Wilson T., et al., 2016, IAUS, 314, 205; ``The Age of Taurus: Environmental Effects on Disc Lifetimes''\vspace{2pt}\\
 Hatchell J., Wilson T., et al., 2013, MNRAS, 429, 10; ``The JCMT Gould Belt Survey: SCUBA-2 Observations of Radiative Feedback in NGC 1333''
 
 % Rees J., Wilson Tom J., et al., in prep.; ``Pre-main-sequence Isochrones -- IV. the Age of Taurus and Increased Disc Lifetimes in Low-Density Environments''
@@ -141,36 +177,54 @@ March 2015, Milky Way Astrophysics from Wide-Field Surveys, Contributed Talk
 %	PROFESSIONAL EXPERIENCE SECTION
 %----------------------------------------------------------------------------------------
  \vspace{-5pt}
-\section{TEACHING, OUTREACH \& EXPERIENCE}
+\section{TEACHING \& OUTREACH EXPERIENCE}
 
-{\sl Undergraduate Astrophysics Lab Demonstrator}, 2013-2017\\
-Assist in teaching of 20-30 second year undergraduates in the astrophysics portion of the teaching lab. Includes demonstrating use of UNIX commands, IRAF, data reduction and analysis, as well as report writing. Additional duties included report assessment and feedback. Experiments included analysis of Cepheid variability periods, colour-magnitude diagrams, and optical spectroscopy.
+{\sl Undergraduate Astrophysics Lab Demonstrator}, 2013-2017
+\begin{itemize}[noitemsep,topsep=0pt,parsep=0pt,partopsep=0pt]
+\item Assist in teaching of 20-30 second year undergraduates in the astrophysics portion of the lab
+\item Demonstrated use of UNIX commands, IRAF, data reduction and analysis, \& report writing
+\item Duties included report assessment and feedback
+\item Experiments included analysis of Cepheid variability periods, colour-magnitude diagrams, and optical spectroscopy
+\end{itemize}
 
-{\sl Undergraduate Astrophysics Teaching Telescope Operator}, 2013-2017\\
-Lead undergraduate students in usage of the university's teaching telescope. Teaching of telescope operation, as well as remote/automated capacities provided by ACP Scheduler and understanding of observation planning.
+\vspace{-10pt}
 
-{\sl Undergraduate Physics Problem Tutor}, 2013-2017\\
-Assist in running of first year undergraduate physics problems classes. Involved running homework sessions, managing approximately 140 students. Provided guidance on a wide variety of problems, ranging from solid state physics to electromagnetism to astrophysics. 
+{\sl Undergraduate Astrophysics Teaching Telescope Operator}, 2013-2017
+\begin{itemize}[noitemsep,topsep=0pt,parsep=0pt,partopsep=0pt]
+\item Lead undergraduate students in usage of the university's teaching telescope
+\item Teaching of telescope operation, as well as remote/automated capacities of ACP Scheduler
+\item Involved teaching an understanding of observation planning
+\end{itemize}
 
-{\sl ``Pint of Science'' Event Organiser}, 2013-2018\\
-Co-organised the ``Pint of Science'' outreach events held in Exeter each year. Events involve three nights of outreach talks from a selection of researchers, aimed at public engagement. Role included a host of responsibilities including deciding the themes for each nights' talks, inviting speakers, and organising event location. Role also included engaging with the community and answering questions from members of the public.
+\vspace{-10pt}
 
-{\sl Observing At the James Clerk Maxwell Telescope, Hawaii}, 2014\\
-Experience at the JCMT as part of the JPS survey. Involved telescope operation, data processing, and observation scheduling.
+{\sl Undergraduate Physics Problem Tutor}, 2013-2017
+\begin{itemize}[noitemsep,topsep=0pt,parsep=0pt,partopsep=0pt]
+\item Assist in running first year undergraduate physics problems classes
+\item Involved organising homework sessions, managing approximately 140 students
+\item Provided guidance on a wide variety of problems, ranging from solid state physics to electromagnetism to astrophysics
+\end{itemize}
+
+\vspace{-10pt}
+
+{\sl ``Pint of Science'' Event Organiser}, 2013-2018
+\begin{itemize}[noitemsep,topsep=0pt,parsep=0pt,partopsep=0pt]
+\item Co-organised the ``Pint of Science'' outreach events held in Exeter each year
+\item Events involve three nights of outreach talks from a selection of researchers, aimed at public engagement
+\item Included a host of responsibilities including deciding the themes for each nights' talks, inviting speakers, and organising event location
+\item Involved engaging with the community and answering questions from members of the public
+\end{itemize}
+
+\vspace{-10pt}
+
+{\sl Observing At the James Clerk Maxwell Telescope, Hawaii}, 2014
+\begin{itemize}[noitemsep,topsep=0pt,parsep=0pt,partopsep=0pt]
+\item Experience at the JCMT as part of the JPS survey
+\item Involved telescope operation, data processing, and observation scheduling
+\end{itemize}
 
 % Awards - summer placement, 2012 ~£1500
-
  
-%----------------------------------------------------------------------------------------
-%	COMPUTER SKILLS SECTION
-%----------------------------------------------------------------------------------------
-\vspace{-5pt}
-\section{SOFTWARE ENGINEERING}
-
-Developer for AstroPy Photutils Package; developer for ``macauff'' python package.
-
-Python (NumPy, SciPy, AstroPy, MatPlotLib), Fortran (OPENMP), StarLink, Topcat, IRAF, ACP Scheduler, Maxim, DS9, \LaTeX, OSX, Linux, Windows
-
 %----------------------------------------------------------------------------------------
 %	REFERENCES SECTION
 %----------------------------------------------------------------------------------------
@@ -184,7 +238,6 @@ Python (NumPy, SciPy, AstroPy, MatPlotLib), Fortran (OPENMP), StarLink, Topcat, 
 % Dr Jennifer Hatchell, University of Exeter, hatchell@astro.ex.ac.uk
 
  
-----------------------------------------------------------------------------------------
 
 \end{resume}
 \end{document}
