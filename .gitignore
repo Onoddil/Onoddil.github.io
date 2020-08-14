@@ -1,6 +1,6 @@
-.DS_Store
-CV/*.aux
-CV/*.fdb_latexmk
-CV/*fls
-CV/*.log
-CV/*.synctex.gz
+**.DS_Store
+**.aux
+**.fdb_latexmk
+**fls
+**.log
+**.synctex.gz

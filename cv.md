@@ -45,6 +45,10 @@ Hatchell J., Wilson T., et al., 2013, MNRAS, 429, 10; The JCMT Gould Belt Survey
 ## Talks and Conferences
 Links to talk slides given below where available
 
+August 2020, Rubin Observatory Project and Community Workshop, Contributed [Talk](Talks/unresolvedcontaminants_PCW2020_RRB_tomjwilson.pdf)
+
+July 2020, University of Exeter, Contributed [Talk](Talks/UnresolvedContaminants_july2020_tuesdaytalk_tomjwilson.pdf)
+
 July 2019, Python in Astronomy 19, Contributed [Talk](Talks/photutils_pyastro19_tomjwilson.pdf)
 
 June 2019, STScI, HotSci@STScI Colloquia, Contributed Seminar [Talk](Talks/UnresolvedContaminants_hotsci_tomwilson.pdf)
