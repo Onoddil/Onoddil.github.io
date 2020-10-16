@@ -1,6 +1,6 @@
 # CV, Publication List, and Talks
 
-Click [here](https://onoddil.github.io/CV/tom_j_wilson_cv.pdf) to download Tom J. Wilson's CV, and [here](https://ui.adsabs.harvard.edu/search/fl=identifier%2C%5Bcitations%5D%2Cabstract%2Caff%2Cauthor%2Cbibcode%2Ccitation_count%2Ccomment%2Cdoi%2Cid%2Ckeyword%2Cpage%2Cproperty%2Cpub%2Cpub_raw%2Cpubdate%2Cpubnote%2Cread_count%2Ctitle%2Cvolume%2Clinks_data%2Cesources%2Cdata%2Cemail%2Cdoctype&q=%3Dauthor%3A%22wilson%2C%20tom%20j%22%20OR%20author%3A(%22wilson%2C%20t%22%20AND%20%22hatchell%2C%20j%22)%20OR%20author%3A(%22wilson%2C%20t%20j%22%20AND%20%22naylor%2C%20t%22)%20OR%20author%3A(%22wilson%2C%20t%22%20AND%20%22wakeford%2C%20h%22)&rows=25&sort=date%20desc%2C%20bibcode%20desc&start=0&p_=0) to view Tom J. Wilson's publications on ADS.
+Click [here](https://onoddil.github.io/CV/tom_j_wilson_cv.pdf) to download Tom J. Wilson's Academic CV, [here](https://onoddil/github.io/Software_Engineer_CV/tom_j_wilson_cv.pdf) to download Tom J. Wilson's Research Software Engineer CV, and [here](https://ui.adsabs.harvard.edu/search/p_=0&q=orcid%3A0000-0001-6352-9735&sort=date%20desc%2C%20bibcode%20desc) to view Tom J. Wilson's publications on ADS. 
 
 ## Professional Work and Education
 
@@ -21,6 +21,8 @@ Wilson Tom J., Naylor T., 2018, MNRAS, 473, 5570; Improving Catalogue Matching B
 Wilson Tom J., Naylor T., 2017, MNRAS, 469, 2517; The Effect of Unresolved Contaminant Stars on the Cross-matching of Photometric Catalogues
 
 ## Co-Author Publications
+
+Lewis N. K., ..., Wilson T. J., et al., 2020, ApJL, 902, 19; Into the UV: The Atmosphere of the Hot Jupiter HAT-P-41b Revealed
 
 Wakeford H. R., Sing D. K., Stevenson K. B., Lewis N. K., Pirzkal N., Wilson T. J., et al., 2020, AJ, 159, 204; Into the UV: A Precise Transmission Spectrum of HAT-P-41b Using Hubble's WFC3/UVIS G280 Grism
 
@@ -44,6 +46,8 @@ Hatchell J., Wilson T., et al., 2013, MNRAS, 429, 10; The JCMT Gould Belt Survey
 
 ## Talks and Conferences
 Links to talk slides given below where available
+
+October 2020, Royal Astronomical Society Specialist Meeting: TVS with Rubin Observatory, Contributed [Talk](Talks/ImprovedCrossMatch_tvs_tomjwilson.pdf)
 
 August 2020, Rubin Observatory Project and Community Workshop, Contributed [Talk](Talks/unresolvedcontaminants_PCW2020_RRB_tomjwilson.pdf)
 

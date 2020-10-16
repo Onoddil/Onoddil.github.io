@@ -1,5 +1,8 @@
 # Tom J. Wilson
 
+## CV and Publications
+See [here](cv.md) to view Tom J. Wilson's CV, publication list, and talks.
+
 ## Scientific Research
 Tom J. Wilson is a postdoctoral research fellow at the University of Exeter. He is working on the problem of cross-matching photometric catalogues in deep, crowded fields, as part of the LSST:UK consortium. This work further develops from a program he created during his PhD, which highlighted the implications the effects that blended sources can have on the derived properties of astrophysical sources. For his LSST:UK postdoctoral research he is developing software pipelines that will be applied to deep field and time series LSST catalogues, as well as a host of external datasets.
 
@@ -17,6 +20,3 @@ As an avid astrostatistician, Tom J. Wilson is committed to robust methodology a
 Tom J. Wilson is also working on the development of the AstroPy [photutils](https://photutils.readthedocs.io/en/stable/) codebase. Here he is leveraging his expertise in photometry, and specifically work with point-spread functions, to expand on and improve the photutils code surrounding the fitting of point sources in astronomical images.
 
 He is also developing the open source photometric catalogue cross-match code [macauff](https://github.com/Onoddil/macauff), a statistically robust code for the merging of photometric datasets including the effects of blended objects on the positions and fluxes of sources.
-
-## CV and Publications
-See [here](cv.md) to view Tom J. Wilson's CV, publication list, and talks.
