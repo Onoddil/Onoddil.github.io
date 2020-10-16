@@ -1,6 +1,6 @@
 # CV, Publication List, and Talks
 
-Click [here](https://onoddil.github.io/CV/tom_j_wilson_cv.pdf) to download Tom J. Wilson's Academic CV, [here](https://onoddil/github.io/Software_Engineer_CV/tom_j_wilson_cv.pdf) to download Tom J. Wilson's Research Software Engineer CV, and [here](https://ui.adsabs.harvard.edu/search/p_=0&q=orcid%3A0000-0001-6352-9735&sort=date%20desc%2C%20bibcode%20desc) to view Tom J. Wilson's publications on ADS. 
+Click [here](https://onoddil.github.io/CV/tom_j_wilson_cv.pdf) to download Tom J. Wilson's Academic CV, [here](https://onoddil.github.io/Software_Engineer_CV/tom_j_wilson_cv.pdf) to download Tom J. Wilson's Research Software Engineer CV, and [here](https://ui.adsabs.harvard.edu/search/p_=0&q=orcid%3A0000-0001-6352-9735&sort=date%20desc%2C%20bibcode%20desc) to view Tom J. Wilson's publications on ADS. 
 
 ## Professional Work and Education
 
