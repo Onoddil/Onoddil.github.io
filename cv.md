@@ -22,13 +22,13 @@ Wilson Tom J., Naylor T., 2017, MNRAS, 469, 2517; The Effect of Unresolved Conta
 
 ## Co-Author Publications
 
+Bradley L., Sipőcz B., Robitaille T., Tollerud E., Vinícius Z., Deil C., Barbary K., Wilson T. J., et al., 2019-2021, DOI:10.5281/zenodo.4453725; astropy/photutils: v0.7 through v1.0.2
+
 Lewis N. K., ..., Wilson T. J., et al., 2020, ApJL, 902, 19; Into the UV: The Atmosphere of the Hot Jupiter HAT-P-41b Revealed
 
 Wakeford H. R., Sing D. K., Stevenson K. B., Lewis N. K., Pirzkal N., Wilson T. J., et al., 2020, AJ, 159, 204; Into the UV: A Precise Transmission Spectrum of HAT-P-41b Using Hubble's WFC3/UVIS G280 Grism
 
 Steinhardt C., ..., Wilson T. J., et al., 2020, ApJS, 247, 64; The Buffalo HST Survey
-
-Bradley L., Sipőcz B., Robitaille T., Tollerud E., Vinícius Z., Deil C., Barbary K., Wilson T. J., et al, 2019, DOI:0.5281/zenodo.3568287; astropy/photutils: v0.7, v0.7.1, v0.7.2
 
 Wakeford H. R., Wilson T. J., et al., 2019, RNAAS, 3, 7; Exoplanet Atmosphere Forecast: Observers Should Expect Spectroscopic Transmission Features to be Muted to 33%
 
@@ -45,13 +45,15 @@ Hatchell J., Wilson T., et al., 2013, MNRAS, 429, 10; The JCMT Gould Belt Survey
 [//]: # Rees J., Wilson Tom J., et al., in prep.; Pre-main-sequence Isochrones -- IV. the Age of Taurus and Increased Disc Lifetimes in Low-Density Environments
 
 ## Talks and Conferences
-Links to talk slides given below where available
+Links to talk slides and posters given below where available
+
+March 2021, Cool Stars 20.5, Contributed [Poster](Talks/TomJWilson_CS20.5Poster_v3.pdf)
 
 October 2020, Royal Astronomical Society Specialist Meeting: TVS with Rubin Observatory, Contributed [Talk](Talks/ImprovedCrossMatch_tvs_tomjwilson.pdf)
 
 August 2020, Rubin Observatory Project and Community Workshop, Contributed [Talk](Talks/unresolvedcontaminants_PCW2020_RRB_tomjwilson.pdf)
 
-July 2020, University of Exeter, Contributed [Talk](Talks/UnresolvedContaminants_july2020_tuesdaytalk_tomjwilson.pdf)
+July 2020, University of Exeter, Contributed Seminar [Talk](Talks/UnresolvedContaminants_july2020_tuesdaytalk_tomjwilson.pdf)
 
 July 2019, Python in Astronomy 19, Contributed [Talk](Talks/photutils_pyastro19_tomjwilson.pdf)
 
