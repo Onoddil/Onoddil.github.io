@@ -47,6 +47,10 @@ Hatchell J., Wilson T., et al., 2013, MNRAS, 429, 10; The JCMT Gould Belt Survey
 ## Talks and Conferences
 Links to talk slides and posters given below where available
 
+April 2021, UKEXOM 2021, Contributed [Talk](Talks/tomjwilson_ukexom21_goodness_of_fit.pdf); recording [here](https://exoplanet-talks.org/talk/285)
+
+April 2021, University of Exeter, Contributed Seminar [Talk](Talks/unresolved_contaminants_exeter_080421.pdf)
+
 March 2021, Cool Stars 20.5, Contributed [Poster](Talks/TomJWilson_CS20.5Poster_v3.pdf)
 
 October 2020, Royal Astronomical Society Specialist Meeting: TVS with Rubin Observatory, Contributed [Talk](Talks/ImprovedCrossMatch_tvs_tomjwilson.pdf)
@@ -78,6 +82,11 @@ June 2016, Cool Stars 19, Contributed Poster
 April 2015, BECSS Bristol, Contributed [Talk](Talks/BECSS.pdf)
 
 March 2015, Milky Way Astrophysics from Wide-Field Surveys, Contributed Talk
+
+## Committee and Service Work
+May 2021, LSST:UK All-Hands Meeeting, Local Organising Committee
+
+June 2019, Hubble Support Scientist for Cycle 29 Time Allocation Committee
 
 ---
 Return to [homepage](index.md)
