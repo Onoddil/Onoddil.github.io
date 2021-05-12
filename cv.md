@@ -45,7 +45,12 @@ Hatchell J., Wilson T., et al., 2013, MNRAS, 429, 10; The JCMT Gould Belt Survey
 [//]: # Rees J., Wilson Tom J., et al., in prep.; Pre-main-sequence Isochrones -- IV. the Age of Taurus and Increased Disc Lifetimes in Low-Density Environments
 
 ## Talks and Conferences
+##### 1 invited seminar talk, 2 invited conference talks, 4 contributed seminar talks, 10 contributed conference talks, 3 contributed conference posters.
 Links to talk slides and posters given below where available
+
+May 2021, LSST:UK All-Hands Meeting, Invited [Talk](Talks/tomjwilson_smwlvsc_update.pdf)
+
+May 2021, LSST:UK All-Hands Meeting, Contributed [Talk](Talks/tomjwilson_lsstukahm_matches.pdf)
 
 April 2021, UKEXOM 2021, Contributed [Talk](Talks/tomjwilson_ukexom21_goodness_of_fit.pdf); recording [here](https://exoplanet-talks.org/talk/285)
 
