@@ -1,4 +1,7 @@
 title: Tom J. Wilson
 logo: pic.jpg
 description: Postdoctoral Research Fellow at the University of Exeter, working on cross-matching photometric catalogues in crowded fields as part of the LSST:UK Consortium. Also developing PSF photometry codebase in the astropy-affliated photutils package. Astrostatistician, occasional exoplanet dabbler.
-theme: jekyll-theme-minimal
+! theme: jekyll-theme-minimal
+remote_theme: pages-themes/cayman@v0.2.0
+plugins:
+- jekyll-remote-theme # add this line to the plugins list if you already have one
