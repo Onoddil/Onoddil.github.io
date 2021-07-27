@@ -22,7 +22,7 @@ Wilson Tom J., Naylor T., 2017, MNRAS, 469, 2517; The Effect of Unresolved Conta
 
 ## Co-Author Publications
 
-Bradley L., Sipőcz B., Robitaille T., Tollerud E., Vinícius Z., Deil C., Barbary K., Wilson T. J., et al., 2019-2021, DOI:10.5281/zenodo.4624996; astropy/photutils: v0.7 through v1.1.0
+Bradley L., Sipőcz B., Robitaille T., Tollerud E., Vinícius Z., Deil C., Barbary K., Wilson T. J., et al., 2019-2021, DOI:10.5281/zenodo.4624996; astropy/photutils: v0.6 through v1.1.0
 
 Lewis N. K., ..., Wilson T. J., et al., 2020, ApJL, 902, 19; Into the UV: The Atmosphere of the Hot Jupiter HAT-P-41b Revealed
 
