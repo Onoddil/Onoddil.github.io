@@ -12,6 +12,10 @@ PhD in Physics, University of Exeter, 2013-2018
 
 MPhys in Physics with Astrophysics, First Class Honours, University of Exeter, 2009-2013
 
+## Grants and Awards
+
+Co-I STFC Grant, "UK Involvement in LSST: Phase B (Exeter Component)", £322,000
+
 ## First Author Publications
 
 Wilson Tom J., Naylor T., 2018, MNRAS, 481, 2148; A Contaminant-Free Catalogue of _Gaia_ DR2-_WISE_ Galactic Plane Matches: Including the Effects of Crowding in the Cross-Matching of Photometric Catalogues
@@ -102,6 +106,20 @@ May 2021, LSST:UK All-Hands Meeeting, Local Organising Committee
 June 2019, Hubble Support Scientist for Cycle 29 Time Allocation Committee
 
 Peer review referee for AJ
+
+## Teaching and Outreach
+
+Undergraduate Astrophysics Lab Demonstrator, 2013-2021
+
+Undergraduate Python Demonstrator, 2021
+
+Undergraduate Astrophysics Teaching Telescope Operator, 2013-2017
+
+Undergraduate Physics Problem Tutor, 2013-2017
+
+"Pint of Science" Event Organiser, 2013-2018
+
+Observing at the James Clerk Maxwell Telescope, 2014
 
 ---
 Return to [homepage](index.md)
