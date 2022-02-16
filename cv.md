@@ -18,6 +18,12 @@ Co-I STFC Grant, "UK Involvement in LSST: Phase B (Exeter Component)", £322,000
 
 ## First Author Publications
 
+Wilson Tom J., Naylor T., in prep.; Improvements to the Astrometric Uncertainty Function: Updated Algorithms for Astrometric Perturbations due to Unresolved Contaminants in Background-Dominated Sources and More Accurate Flux Contaminations
+
+Wilson Tom J., in review; Overcoming Separation Between Counterparts Due to Unknown Proper Motions in Catalogue Cross-Matching
+
+Wilson Tom J., 2021, RNAAS, 5, 265; On the Use of Evidence and Goodness-of-Fit Metrics in Exoplanet Atmosphere Interpretation
+
 Wilson Tom J., Naylor T., 2018, MNRAS, 481, 2148; A Contaminant-Free Catalogue of _Gaia_ DR2-_WISE_ Galactic Plane Matches: Including the Effects of Crowding in the Cross-Matching of Photometric Catalogues
 
 Wilson Tom J., Naylor T., 2018, MNRAS, 473, 5570; Improving Catalogue Matching By Supplementing Astrometry with Additional Photometric Information
@@ -25,6 +31,8 @@ Wilson Tom J., Naylor T., 2018, MNRAS, 473, 5570; Improving Catalogue Matching B
 Wilson Tom J., Naylor T., 2017, MNRAS, 469, 2517; The Effect of Unresolved Contaminant Stars on the Cross-matching of Photometric Catalogues
 
 ## Co-Author Publications
+
+Bruno G., Lewis N. K., Valenti J. A., Pagano I., Wilson T. J., et al., 2022, MNRAS, 509, 5030; Hiding in Plain Sight: Observing Planet-Starspot Crossings with the _James Webb Space Telescope_
 
 Bradley L., Sipőcz B., Robitaille T., Tollerud E., Vinícius Z., Deil C., Barbary K., Wilson T. J., et al., 2019-2021, DOI:10.5281/zenodo.4624996; astropy/photutils: v0.6 through v1.1.0
 
@@ -49,8 +57,10 @@ Hatchell J., Wilson T., et al., 2013, MNRAS, 429, 10; The JCMT Gould Belt Survey
 [//]: # Rees J., Wilson Tom J., et al., in prep.; Pre-main-sequence Isochrones -- IV. the Age of Taurus and Increased Disc Lifetimes in Low-Density Environments
 
 ## Talks and Conferences
-##### 1 invited seminar talk, 3 invited conference talks, 4 contributed seminar talks, 12 contributed conference talks, 4 contributed conference posters.
+##### 2 invited seminar talks, 3 invited conference talks, 4 contributed seminar talks, 12 contributed conference talks, 4 contributed conference posters.
 Links to talk slides and posters given below where available
+
+February 2022, University of Delaware, Invited Seminar [Talk](Talks/unresolved_contaminants_delaware_15022022.pdf)
 
 August 2021, Rubin Observatory Project and Community Workshop, Contributed [Talk](Talks/tomjwilson_rubinpcw2021.pdf)
 
@@ -106,6 +116,10 @@ May 2021, LSST:UK All-Hands Meeeting, Local Organising Committee
 June 2019, Hubble Support Scientist for Cycle 29 Time Allocation Committee
 
 Peer review referee for AJ
+
+Member of LSST Stars, Milky Way and Local Volume Science Collaboration (SMWLVSC)
+
+Member of LSST SMWLVSC Crowded Stellar Field Working Group
 
 ## Teaching and Outreach
 
