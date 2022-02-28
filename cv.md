@@ -14,7 +14,7 @@ MPhys in Physics with Astrophysics, First Class Honours, University of Exeter, 2
 
 ## Grants and Awards
 
-Co-I STFC Grant, "UK Involvement in LSST: Phase B (Exeter Component)", £322,000
+Co-I STFC Grant, "UK Involvement in LSST: Phase B (Exeter Component)", £438,000
 
 ## First Author Publications
 
