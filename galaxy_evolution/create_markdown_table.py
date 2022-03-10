@@ -21,7 +21,7 @@ a = np.genfromtxt('../../Postdocs/2019- Exeter/Work/Galaxy Evolution/'
                   'galaxy_count_parameters.csv', delimiter=',', dtype=param_dtype, skip_header=1)
 
 f = open('schechter_markdown_table.md', 'w+')
-f.write(r'| Citation | Band | Wavelength (nm) | Type | $M^*_0$ / AB mag | $\phi^*_0$ / Mpc$^{-3}$mag$^{-1}$ | $\alpha$ | Q / mag $z^{-1}$ | P / $z^{-1}$ |' '\n')
+f.write(r'| Citation | Band | Wavelength / nm | Type | $$M^*_0$$ / AB mag | $$\phi^*_0$$ / Mpc$$^{-3}$$mag$$^{-1}$$ | $$\alpha$$ | Q / mag $$z^{-1}$$ | P / $$z^{-1}$$|' '\n')
 f.write(r'| --- | --- | --- | --- | --- | --- | --- | --- | --- |' '\n')
 for i in range(len(a)):
     text = r'| {} | {} | {} | {} | '.format(a[i]['Citation'], a[i]['band'],
@@ -48,9 +48,9 @@ big_table = np.empty(10, dtype=[('param', 'U10'), ('type', 'U1'), ('c', float),
                                 ('m', float), ('a', float), ('u', float)])
 
 f = open('parameter_markdown_table.md', 'w+')
-f.write(r'Parameter | Galaxy type | c | m | a | u' + '\n')
+f.write(r'| Parameter | Galaxy type | c | m | a | u' + '\n')
 f.write(r'| --- | --- | --- | --- | --- | --- |' + '\n')
-for i, param in enumerate([r'$M^*_0$', r'$\phi^*_0$', r'$\alpha$', r'$P$', r'$Q$']):
+for i, param in enumerate([r'$$M^*_0$$', r'$$\phi^*_0$$', r'$$\alpha$$', r'$$P$$', r'$$Q$$']):
     for j, _type in enumerate(['b', 'r']):
         if np.isnan(a_array[i, j]) and np.isnan(u_array[i, j]):
             f.write(r'| {} | {} | {:.4f} | {:.3f} |  |  |'.format(

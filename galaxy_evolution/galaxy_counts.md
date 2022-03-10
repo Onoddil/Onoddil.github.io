@@ -1,28 +1,32 @@
+---
+use_math: true
+---
+
 # Schechter Function Parameterisation for Galaxy Counts
 
 Here I provide the data used to construct the galaxy count model described in Wilson (2022, RNAAS, ...). The model assumes galaxy luminosities are described by a Schechter function, where the density of galaxies as a function of absolute magnitude in a given bandpass is given by
-$\phi(M) = 0.4 \ln(10) \phi^* [10^{-0.4 (M-M^*)}]^{\alpha+1} \exp(-10^{-0.4 (M - M*)})$, with $M^*(z) = M^*_0 - Qz$, $\phi^* = \phi^*_0 10^{0.4 P z}$ describing the redshift dependency of the characteristic absolute magnitude and normalising density of the luminosity function respectively and $\alpha$ the slope of the faint end of the distribution.
+$$ \phi(M) = 0.4 \ln(10) \phi^* [10^{-0.4 (M-M^*)}]^{\alpha+1} \exp(-10^{-0.4 (M - M*)}) $$, with $$ M^*(z) = M^*_0 - Qz $$, $$ \phi^* = \phi^*_0 10^{0.4 P z} $$ describing the redshift dependency of the characteristic absolute magnitude and normalising density of the luminosity function respectively and $$ \alpha $$ the slope of the faint end of the distribution.
 
-The observed galaxy count is then derived by a conversion from $\phi$ in units of $\mathrm{Mpc}^{-3}\,\mathrm{mag}^{-1}$ to sky number densities ($\mathrm{deg}^{-2}\,\mathrm{mag}^{-1}$) by consideration of the volume within a particular redshift range and sky region, and a sum over all redshifts. Final observed densities of galaxies in a bandpass are the sum of two Schechter functions, $\phi_\mathrm{tot} = \phi_b + \phi_r$, for "blue" (star-forming) and "red" (quiescent) galaxies, and hence we require a total of 10 parameters to describe the density of galaxies at a particular redshift.
+The observed galaxy count is then derived by a conversion from $$\phi$$ in units of $$\mathrm{Mpc}^{-3}\,\mathrm{mag}^{-1}$$ to sky number densities ($$\mathrm{deg}^{-2}\,\mathrm{mag}^{-1}$$) by consideration of the volume within a particular redshift range and sky region, and a sum over all redshifts. Final observed densities of galaxies in a bandpass are the sum of two Schechter functions, $$\phi_\mathrm{tot} = \phi_b + \phi_r$$, for "blue" (star-forming) and "red" (quiescent) galaxies, and hence we require a total of 10 parameters to describe the density of galaxies at a particular redshift.
 
-To derive galaxy counts for an arbitrary bandpass, a parameterisation for these 10 parameters -- $M^*_0$, $\phi^*_0$, $P$, $Q$, and $\alpha$, for both blue and red galaxy distributions -- was found as a function of wavelength, with the exception of $Q$, which -- due to the degeneracy between it and $P$ -- was derived as a function of $P$. The functions used to describe these parameters are $y = m \times x + c$ for $Q(P)$, $\alpha(\log_{10}(\lambda))$, and $P(\log_{10}(\lambda))$; $y = A \exp(-m x) + c$ for $M^*_0(\log_{10}(\lambda))$ and blue galaxy $\phi^*_0(\log_{10}(\lambda))$; and $y = A \exp(-0.5 (x - u)^2 \times m) + c$ for red galaxy $\phi^*_0(\log_{10}(\lambda))$. The table below provides the values derived for each parameter fit for both galaxy types, with a machine-readable version of the data available [here](galaxy_count_parameter_table.csv).
+To derive galaxy counts for an arbitrary bandpass, a parameterisation for these 10 parameters -- $$M^*_0$$, $$\phi^*_0$$, $$P$$, $$Q$$, and $$\alpha$$, for both blue and red galaxy distributions -- was found as a function of wavelength, with the exception of $$Q$$, which -- due to the degeneracy between it and $$P$$ -- was derived as a function of $$P$$. The functions used to describe these parameters are $$y = m \times x + c$$ for $$Q(P)$$, $$\alpha(\log_{10}(\lambda))$$, and $$P(\log_{10}(\lambda))$$; $$y = A \exp(-m x) + c$$ for $$M^*_0(\log_{10}(\lambda))$$ and blue galaxy $$\phi^*_0(\log_{10}(\lambda))$$; and $$y = A \exp(-0.5 (x - u)^2 \times m) + c$$ for red galaxy $$\phi^*_0(\log_{10}(\lambda))$$. The table below provides the values derived for each parameter fit for both galaxy types, with a machine-readable version of the data available [here](galaxy_count_parameter_table.csv).
 
-Parameter | Galaxy type | c | m | a | u
+| Parameter | Galaxy type | c | m | a | u
 | --- | --- | --- | --- | --- | --- |
-| $M^*_0$ | b | -24.2865 | 1.142 | 2.6558 |  |
-| $M^*_0$ | r | -23.1925 | 1.779 | 1.6683 |  |
-| $\phi^*_0$ | b | 0.0015 | 2.919 | 0.0005 |  |
-| $\phi^*_0$ | r | 0.0006 | 7.691 | 0.0033 | -0.066 |
-| $\alpha$ | b | -1.2578 | 0.021 |  |  |
-| $\alpha$ | r | -0.3091 | -0.067 |  |  |
-| $P$ | b | -0.3020 | 0.034 |  |  |
-| $P$ | r | -0.7131 | 0.233 |  |  |
-| $Q$ | b | 1.2574 | -0.390 |  |  |
-| $Q$ | r | 0.9125 | -0.549 |  |  |
+| $$M^*_0$$ | b | -24.2865 | 1.142 | 2.6558 |  |
+| $$M^*_0$$ | r | -23.1925 | 1.779 | 1.6683 |  |
+| $$\phi^*_0$$ | b | 0.0015 | 2.919 | 0.0005 |  |
+| $$\phi^*_0$$ | r | 0.0006 | 7.691 | 0.0033 | -0.066 |
+| $$\alpha$$ | b | -1.2578 | 0.021 |  |  |
+| $$\alpha$$ | r | -0.3091 | -0.067 |  |  |
+| $$P$$ | b | -0.3020 | 0.034 |  |  |
+| $$P$$ | r | -0.7131 | 0.233 |  |  |
+| $$Q$$ | b | 1.2574 | -0.390 |  |  |
+| $$Q$$ | r | 0.9125 | -0.549 |  |  |
 
-Additionally, the final table provides the values used to calculate these functional forms, also available in machine-readable form [here]. The machine-readable .csv file also provides the original, un-corrected literature values of $M^*_0$ and $\phi^*_0$ -- in linear- and log-form where quoted solely in $\log_{10}(\phi^*)$ -- and $h$ and $z_0$ when conversion from non-zero redshift or values in arbitrary $H_0$ values are quoted.
+Additionally, the final table provides the values used to calculate these functional forms, also available in machine-readable form [here]. The machine-readable .csv file also provides the original, un-corrected literature values of $$M^*_0$$ and $$\phi^*_0$$ -- in linear- and log-form where quoted solely in $$\log_{10}(\phi^*)$$ -- and $$h$$ and $$z_0$$ when conversion from non-zero redshift or values in arbitrary $$H_0$$ values are quoted.
 
-| Citation | Band | Wavelength (nm) | Type | $M^*_0$ / AB mag | $\phi^*_0$ / Mpc$^{-3}$mag$^{-1}$ | $\alpha$ | Q / mag $z^{-1}$ | P / $z^{-1}$ |
+| Citation | Band | Wavelength / nm | Type | $$M^*_0$$ / AB mag | $$\phi^*_0$$ / Mpc$$^{-3}$$mag$$^{-1}$$ | $$\alpha$$ | Q / mag $$z^{-1}$$ | P / $$z^{-1}$$|
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | MNRAS 420 1239 | u | 355.0 | b |  -18.495±0.117 | 4.493e-03±8.575e-04 | -1.430±0.070 | 5.500±0.600 | -7.100±1.500 |
 | MNRAS 420 1239 | u | 355.0 | r |  -17.475±0.157 | 1.468e-02±4.939e-03 | -0.140±0.130 | 6.400±1.400 | -8.100±3.400 |
@@ -117,116 +121,116 @@ Additionally, the final table provides the values used to calculate these functi
 ### Notes
 Where applicable, relevant information from each literature reference used to calculate the quoted values in the above table is given below.
 
-- In all cases, quoted uncertainties are statistical. These are inflated by adding 5% relative uncertainty and (0, 0.001, 0.1, 0.1, 0.01) systematic uncertainty to ($M^*_0$, $\phi^*_0$, $Q$, $P$, $\alpha$) respectively during the parameterisation fitting process.
+- In all cases, quoted uncertainties are statistical. These are inflated by adding 5% relative uncertainty and (0, 0.001, 0.1, 0.1, 0.01) systematic uncertainty to ($$M^*_0$$, $$\phi^*_0$$, $$Q$$, $$P$$, $$\alpha$$) respectively during the parameterisation fitting process.
 
 Loveday et al. (2012, MNRAS, 420, 1239)  
 
 - Table 5
-- Conversion from units of $h^3\,\mathrm{Mpc}^{-3}$ and $M^* - 5\log_{10}(h)$ using $h=0.7$
-- $M^*_0$ translated from $z_0 = 0.1$ to $z=0$
+- Conversion from units of $$h^3\,\mathrm{Mpc}^{-3}$$ and $$M^* - 5\log_{10}(h)$$ using $$h=0.7$$
+- $$M^*_0$$ translated from $$z_0 = 0.1$$ to $$z=0$$
 
 Loveday et al. (2015, MNRAS, 451, 1540)
 
 - Tables 3 and 4, Mean Probability Petrosian
-- Conversion from units of $h^3\,\mathrm{Mpc}^{-3}$ and $M^* - 5\log_{10}(h)$ using $h=0.7$
-- $M^*_0$ translated from $z_0 = 0.1$ to $z=0$
+- Conversion from units of $$h^3\,\mathrm{Mpc}^{-3}$$ and $$M^* - 5\log_{10}(h)$$ using $$h=0.7$$
+- $$M^*_0$$ translated from $$z_0 = 0.1$$ to $$z=0$$
 
 Kelvin et al. (2014, MNRAS, 439, 1245)
 
 - Table 9
-- $H_0 = 70\,\mathrm{km}\,\mathrm{s}^{-1}\,\mathrm{kpc}$ gives $h=1$ so no conversion of values necessary
+- $$H_0 = 70\,\mathrm{km}\,\mathrm{s}^{-1}\,\mathrm{kpc}$$ gives $$h=1$$ so no conversion of values necessary
 
 Lin et al. (1999, ApJ, 518, 533)
 
-- Tables 1 and 2, $Q_0 = 0.5$
-- Conversion from units of $h^3\,\mathrm{Mpc}^{-3}$ and $M^* - 5\log_{10}(h)$ using $h=0.7$
-- $M^*_0$ translated from $z_0 = 0.3$ to $z=0$
+- Tables 1 and 2, $$Q_0 = 0.5$$
+- Conversion from units of $$h^3\,\mathrm{Mpc}^{-3}$$ and $$M^* - 5\log_{10}(h)$$ using $$h=0.7$$
+- $$M^*_0$$ translated from $$z_0 = 0.3$$ to $$z=0$$
 
 Dai et al. (2009, ApJ, 697, 506)
 
 - Table 2, using "early" and "late" type
-- Conversion from units of $h^3\,\mathrm{Mpc}^{-3}$ and $M^* - 5\log_{10}(h)$ using $h=0.7$
-- $M^*_0$ translated from $z_0 = 0.25$ to $z=0$
-- $P$ and $Q$ not used in fitting $P(\log_{10}(\lambda))$ or $Q(P)$, but has its $Q$ values represented in Figure 1 of Wilson (2022, RNAAS, ...) at $P = 0$, the value fixed during the derivation for these parameters
-- $M^*$ quoted in the Vega magnitude system, so for self-consistency had its values converted to the AB system using the [MIST zero-point table](https://waps.cfa.harvard.edu/MIST/BC_tables/zeropoints.txt) values
+- Conversion from units of $$h^3\,\mathrm{Mpc}^{-3}$$ and $$M^* - 5\log_{10}(h)$$ using $$h=0.7$$
+- $$M^*_0$$ translated from $$z_0 = 0.25$$ to $$z=0$$
+- $$P$$ and $$Q$$ not used in fitting $$P(\log_{10}(\lambda))$$ or $$Q(P)$$, but has its $$Q$$ values represented in Figure 1 of Wilson (2022, RNAAS, ...) at $$P = 0$$, the value fixed during the derivation for these parameters
+- $$M^*$$ quoted in the Vega magnitude system, so for self-consistency had its values converted to the AB system using the e.g. [MIST zero-point table](https://waps.cfa.harvard.edu/MIST/BC_tables/zeropoints.txt) values
 
 Kochanek et al. (2001, ApJ 560 566)
 
 - Table 3
-- Conversion from units of $h^3\,\mathrm{Mpc}^{-3}$ and $M^* - 5\log_{10}(h)$ using $h=0.7$
-- $M^*$ quoted in the Vega magnitude system, so for self-consistency had its values converted to the AB system using the [MIST zero-point table](https://waps.cfa.harvard.edu/MIST/BC_tables/zeropoints.txt) values
+- Conversion from units of $$h^3\,\mathrm{Mpc}^{-3}$$ and $$M^* - 5\log_{10}(h)$$ using $$h=0.7$$
+- $$M^*$$ quoted in the Vega magnitude system, so for self-consistency had its values converted to the AB system using the e.g. [MIST zero-point table](https://waps.cfa.harvard.edu/MIST/BC_tables/zeropoints.txt) values
 
 Driver et al. (2012, MNRAS, 427, 3244)
 
 - Tables 5 and 6
-- Conversion from units of $M^* - 5\log_{10}(h)$ using $h=0.7$
-- Due to an apparent bias towards assigning objects as "blue" galaxies, do not use $\phi^*$ values; if the values of $\phi^*$ were used, units are $(0.5\,\mathrm{mag})^{-1}$ and hence would need correcting by a factor two
+- Conversion from units of $$M^* - 5\log_{10}(h)$$ using $$h=0.7$$
+- Due to an apparent bias towards assigning objects as "blue" galaxies, do not use $$\phi^*$$ values; if the values of $$\phi^*$$ were used, units are $$(0.5\,\mathrm{mag})^{-1}$$ and hence would need correcting by a factor two
 
 Mortlock et al. (2017, MNRAS, 465, 672)
 
 - Table 4
-- Conversion from units of $h^3\,\mathrm{Mpc}^{-3}$ and $M^* - 5\log_{10}(h)$ using $h=0.7$
-- Parameters quoted as $M^*$, $\phi^*$, $\alpha$ for various $z$ values; linear slopes fit for using the original bin values
+- Conversion from units of $$h^3\,\mathrm{Mpc}^{-3}$$ and $$M^* - 5\log_{10}(h)$$ using $$h=0.7$$
+- Parameters quoted as $$M^*$$, $$\phi^*$$, $$\alpha$$ for various $$z$$ values; linear slopes fit for using the original bin values
 - Both red and blue parameters have significant correlation and hence overall uncertainties underestimated, statistical uncertainty padded from least-squared fit quoted values
 
 Arnouts et al. (2007, A&A, 476, 137)
 
 - Table 1
-- Conversion from units of $h^3\,\mathrm{Mpc}^{-3}$ and $M^* - 5\log_{10}(h)$ using $h=0.7$
-- Parameters quoted as $M^*$, $\phi^*$, $\alpha$ for various $z$ values; linear slopes fit for using the original bin values
+- Conversion from units of $$h^3\,\mathrm{Mpc}^{-3}$$ and $$M^* - 5\log_{10}(h)$$ using $$h=0.7$$
+- Parameters quoted as $$M^*$$, $$\phi^*$$, $$\alpha$$ for various $$z$$ values; linear slopes fit for using the original bin values
 - Red parameters have significant correlation and hence overall uncertainties underestimated, statistical uncertainty padded from least-squared fit quoted values
 
 Cirasuolo et al. (2007, MNRAS, 380, 585)
 
 - Table 2
-- Conversion from units of $h^3\,\mathrm{Mpc}^{-3}$ and $M^* - 5\log_{10}(h)$ using $h=0.7$
-- Parameters quoted as $M^*$, $\phi^*$, $\alpha$ for various $z$ values; linear slopes fit for using the original bin values
+- Conversion from units of $$h^3\,\mathrm{Mpc}^{-3}$$ and $$M^* - 5\log_{10}(h)$$ using $$h=0.7$$
+- Parameters quoted as $$M^*$$, $$\phi^*$$, $$\alpha$$ for various $$z$$ values; linear slopes fit for using the original bin values
 
 Loveday (2014, IAUS, 306, 40)
 
 - Table 1
-- Conversion from units of $h^3\,\mathrm{Mpc}^{-3}$ and $M^* - 5\log_{10}(h)$ using $h=0.7$
-- Uncertainties in $P$ and $Q$ estimated by eye from two-dimensional $\chi^2$ contours
+- Conversion from units of $$h^3\,\mathrm{Mpc}^{-3}$$ and $$M^* - 5\log_{10}(h)$$ using $$h=0.7$$
+- Uncertainties in $$P$$ and $$Q$$ estimated by eye from two-dimensional $$\chi^2$$ contours
 
 Zucca et al. (2009, A&A, 508, 1217)
 
 - Table 1, "early" and "spiral" morphology types
-- $H_0 = 70\,\mathrm{km}\,\mathrm{s}^{-1}\,\mathrm{kpc}$ gives $h_{70}=1$ so no conversion of values necessary
-- Parameters quoted as $M^*$, $\phi^*$, $\alpha$ for various $z$ values; linear slopes fit for using the original bin values
+- $$H_0 = 70\,\mathrm{km}\,\mathrm{s}^{-1}\,\mathrm{kpc}$$ gives $$h_{70}=1$$ so no conversion of values necessary
+- Parameters quoted as $$M^*$$, $$\phi^*$$, $$\alpha$$ for various $$z$$ values; linear slopes fit for using the original bin values
 - Both red and blue parameters have significant correlation and hence overall uncertainties underestimated, statistical uncertainty padded from least-squared fit quoted values
 
 Willmer et al. (2006, ApJ, 647, 853)
 
 - Tables 4 and 5, "minimal" weights
-- $H_0 = 70\,\mathrm{km}\,\mathrm{s}^{-1}\,\mathrm{kpc}$ gives $h=1$ so no conversion of values necessary
-- Uncertainties on $\alpha$ set sufficiently large due to fixed value
-- Parameters quoted as $M^*$, $\phi^*$, $\alpha$ for various $z$ values; linear slopes fit for using the original bin values
+- $$H_0 = 70\,\mathrm{km}\,\mathrm{s}^{-1}\,\mathrm{kpc}$$ gives $$h=1$$ so no conversion of values necessary
+- Uncertainties on $$\alpha$$ set sufficiently large due to fixed value
+- Parameters quoted as $$M^*$$, $$\phi^*$$, $$\alpha$$ for various $$z$$ values; linear slopes fit for using the original bin values
 
 Cool et al. (2012, ApJ, 748, 10)
 
 - Tables 4 and 5
-- Conversion from units of $h^3\,\mathrm{Mpc}^{-3}$ and $M^* - 5\log_{10}(h)$ using $h=0.7$
-- $M^*_0$ translated from $z_0 = 0.1$ to $z=0$
-- Uncertainties on $\alpha$ set sufficiently large due to fixed value
+- Conversion from units of $$h^3\,\mathrm{Mpc}^{-3}$$ and $$M^* - 5\log_{10}(h)$$ using $$h=0.7$$
+- $$M^*_0$$translated from $$z_0 = 0.1$$ to $$z=0$$
+- Uncertainties on $$\alpha$$ set sufficiently large due to fixed value
 
 Beare et al. (2019, ApJ, 873, 78)
 
 - Table 4
-- $H_0 = 70\,\mathrm{km}\,\mathrm{s}^{-1}\,\mathrm{kpc}$ gives $h_{70}=1$ so no conversion of values necessary
-- Uncertainties on $\alpha$ set sufficiently large due to fixed value
-- Parameters quoted as $M^*$, $\phi^*$, $\alpha$ for various $z$ values; linear slopes fit for using the original bin values
+- $$H_0 = 70\,\mathrm{km}\,\mathrm{s}^{-1}\,\mathrm{kpc}$$ gives $$h_{70}=1$$ so no conversion of values necessary
+- Uncertainties on $$\alpha$$ set sufficiently large due to fixed value
+-Parameters quoted as $$M^*$$, $$\phi^*$$, $$\alpha$$ for various $$z$$ values; linear slopes fit for using the original bin values
 
 Lim et al. (2020, ApJ, 889, 80)
 
 - Table 9, non-fixed faint-end slope
-- Single Schechter slope, but split 60%-40% blue-red galaxies in $\phi^*$
-- Parameters quoted as $\log_{10}(L^*/L_\odot)$, $\phi^*$, $\alpha$ for various $z$ values; linear slopes fit for using the original bin values
-- Conversion from "IR" luminosity $\log_{10}(L*/L_\odot)$ in 8-1000$\mu\,\mathrm{m}$ "bandpass" to absolute AB magnitudes using the Solar spectrum from $\texttt{calspec}$; value not used in derivation of $M^*_0(\log_{10}(\lambda))$ but presented for reference in the sub-mm wavelength range
+- Single Schechter slope, but split 60%-40% blue-red galaxies in $$\phi^*$$
+- Parameters quoted as $$\log_{10}(L^*/L_\odot)$$, $$\phi^*$$, $$\alpha$$ for various $$z$$ values; linear slopes fit for using the original bin values
+- Conversion from "IR" luminosity $$\log_{10}(L*/L_\odot)$$ in 8-1000$$\mu\,\mathrm{m}$$ "bandpass" to absolute AB magnitudes using the Solar spectrum from $$\texttt{calspec}$$; value not used in derivation of $$M^*_0(\log_{10}(\lambda))$$ but presented for reference in the sub-mm wavelength range
 
 Moutard et al. (2020, MNRAS, 494, 1894)
 
 - Table 2
-- $H_0 = 70\,\mathrm{km}\,\mathrm{s}^{-1}\,\mathrm{kpc}$ gives $h=1$ so no conversion of values necessary
+- $$H_0 = 70\,\mathrm{km}\,\mathrm{s}^{-1}\,\mathrm{kpc}$$ gives $$h=1$$ so no conversion of values necessary
 - Assume all galaxies are blue in the UV bands where single Schechter functions are fit
-- Parameters quoted as $M^*$, $\phi^*$, $\alpha$ for various $z$ values; linear slopes fit for using the original bin values
-- Only take the UV bands due to abnormal red galaxy $\phi$ normalisation values in double Schechter U-band parameterisation
+- Parameters quoted as $$M^*$$, $$\phi^*$$, $$\alpha$$ for various $$z$$ values; linear slopes fit for using the original bin values
+- Only take the UV bands due to abnormal red galaxy $$\phi$$ normalisation values in double Schechter U-band parameterisation
