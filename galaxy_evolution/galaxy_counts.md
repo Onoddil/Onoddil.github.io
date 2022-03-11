@@ -2,14 +2,14 @@
 use_math: true
 ---
 
-# Schechter Function Parameterisation for Galaxy Counts
+# Schechter Function Parameterisation for Differential Galaxy Counts
 
 Here I provide the data used to construct the galaxy count model described in Wilson (2022, RNAAS, ...). The model assumes galaxy luminosities are described by a Schechter function, where the density of galaxies as a function of absolute magnitude in a given bandpass is given by
-$$ \phi(M) = 0.4 \ln(10) \phi^* [10^{-0.4 (M-M^*)}]^{\alpha+1} \exp(-10^{-0.4 (M - M*)}) $$, with $$ M^*(z) = M^*_0 - Qz $$, $$ \phi^* = \phi^*_0 10^{0.4 P z} $$ describing the redshift dependency of the characteristic absolute magnitude and normalising density of the luminosity function respectively and $$ \alpha $$ the slope of the faint end of the distribution.
+$$ \phi(M) = 0.4 \ln(10) \phi^* [10^{-0.4 (M-M^*)}]^{\alpha+1} \exp(-10^{-0.4 (M - M^*)}) $$, with $$ M^*(z) = M^*_0 - Qz $$, $$ \phi^* = \phi^*_0 10^{0.4 P z} $$ describing the redshift dependency of the characteristic absolute magnitude and normalising density of the luminosity function respectively and $$ \alpha $$ the slope of the faint end of the distribution.
 
-The observed galaxy count is then derived by a conversion from $$\phi$$ in units of $$\mathrm{Mpc}^{-3}\,\mathrm{mag}^{-1}$$ to sky number densities ($$\mathrm{deg}^{-2}\,\mathrm{mag}^{-1}$$) by consideration of the volume within a particular redshift range and sky region, and a sum over all redshifts. Final observed densities of galaxies in a bandpass are the sum of two Schechter functions, $$\phi_\mathrm{tot} = \phi_b + \phi_r$$, for "blue" (star-forming) and "red" (quiescent) galaxies, and hence we require a total of 10 parameters to describe the density of galaxies at a particular redshift.
+The observed differential galaxy count is then derived by a conversion from $$\phi$$ in units of $$\mathrm{Mpc}^{-3}\,\mathrm{mag}^{-1}$$ to sky number densities ($$\mathrm{deg}^{-2}\,\mathrm{mag}^{-1}$$) by consideration of volume of space a particular redshift range makes up within the chosen sky region's solid angle, and a sum over all redshifts. Final observed densities of galaxies in a bandpass are the sum of two Schechter functions, $$\phi_\mathrm{tot} = \phi_b + \phi_r$$, for "blue" (star-forming) and "red" (quiescent) galaxies, and hence we require a total of 10 parameters to describe the density of galaxies at a particular redshift.
 
-To derive galaxy counts for an arbitrary bandpass, a parameterisation for these 10 parameters -- $$M^*_0$$, $$\phi^*_0$$, $$P$$, $$Q$$, and $$\alpha$$, for both blue and red galaxy distributions -- was found as a function of wavelength, with the exception of $$Q$$, which -- due to the degeneracy between it and $$P$$ -- was derived as a function of $$P$$. The functions used to describe these parameters are $$y = m \times x + c$$ for $$Q(P)$$, $$\alpha(\log_{10}(\lambda))$$, and $$P(\log_{10}(\lambda))$$; $$y = A \exp(-m x) + c$$ for $$M^*_0(\log_{10}(\lambda))$$ and blue galaxy $$\phi^*_0(\log_{10}(\lambda))$$; and $$y = A \exp(-0.5 (x - u)^2 \times m) + c$$ for red galaxy $$\phi^*_0(\log_{10}(\lambda))$$. The table below provides the values derived for each parameter fit for both galaxy types, with a machine-readable version of the data available [here](galaxy_count_parameter_table.csv).
+To derive galaxy counts for an arbitrary bandpass, a parameterisation for these 10 parameters -- $$M^*_0$$, $$\phi^*_0$$, $$P$$, $$Q$$, and $$\alpha$$, for both blue and red galaxy distributions -- was found as a function of wavelength, with the exception of $$Q$$, which -- due to the degeneracy between it and $$P$$ -- was derived as a function of $$P$$. The functions used to describe these parameters are $$y = m \times x + c$$ for $$Q(P)$$, $$\alpha(\log_{10}(\lambda / \mu\mathrm{m}))$$, and $$P(\log_{10}(\lambda / \mu\mathrm{m}))$$; $$y = A \exp(-m x) + c$$ for $$M^*_0(\log_{10}(\lambda / \mu\mathrm{m}))$$ and blue galaxy $$\phi^*_0(\log_{10}(\lambda / \mu\mathrm{m}))$$; and $$y = A \exp(-0.5 (x - u)^2 \times m) + c$$ for red galaxy $$\phi^*_0(\log_{10}(\lambda / \mu\mathrm{m}))$$. The table below provides the values derived for each parameter fit for both galaxy types, with a machine-readable version of the data available [here](galaxy_count_parameter_table.csv).
 
 | Parameter | Galaxy type | c | m | a | u
 | --- | --- | --- | --- | --- | --- |
@@ -151,14 +151,14 @@ Dai et al. (2009, ApJ, 697, 506)
 - Table 2, using "early" and "late" type
 - Conversion from units of $$h^3\,\mathrm{Mpc}^{-3}$$ and $$M^* - 5\log_{10}(h)$$ using $$h=0.7$$
 - $$M^*_0$$ translated from $$z_0 = 0.25$$ to $$z=0$$
-- $$P$$ and $$Q$$ not used in fitting $$P(\log_{10}(\lambda))$$ or $$Q(P)$$, but has its $$Q$$ values represented in Figure 1 of Wilson (2022, RNAAS, ...) at $$P = 0$$, the value fixed during the derivation for these parameters
-- $$M^*$$ quoted in the Vega magnitude system, so for self-consistency had its values converted to the AB system using the e.g. [MIST zero-point table](https://waps.cfa.harvard.edu/MIST/BC_tables/zeropoints.txt) values
+- $$P$$ and $$Q$$ not used in fitting $$P(\log_{10}(\lambda / \mu\mathrm{m}))$$ or $$Q(P)$$, but has its $$Q$$ values represented in Figure 1 of Wilson (2022, RNAAS, ...) at $$P = 0$$, the value fixed during the derivation for these parameters
+- $$M^*$$ quoted in the Vega magnitude system, so for self-consistency had its values converted to the AB system using [table 4.2, IRAC instrument handbook]( https://irsa.ipac.caltech.edu/data/SPITZER/docs/irac/iracinstrumenthandbook/14/#_Toc82083798)
 
 Kochanek et al. (2001, ApJ 560 566)
 
 - Table 3
 - Conversion from units of $$h^3\,\mathrm{Mpc}^{-3}$$ and $$M^* - 5\log_{10}(h)$$ using $$h=0.7$$
-- $$M^*$$ quoted in the Vega magnitude system, so for self-consistency had its values converted to the AB system using the e.g. [MIST zero-point table](https://waps.cfa.harvard.edu/MIST/BC_tables/zeropoints.txt) values
+- $$M^*$$ quoted in the Vega magnitude system, so for self-consistency had its values converted to the AB system using the [Cohen et al. (2003, AJ, 126, 1090)](https://ui.adsabs.harvard.edu/abs/2003AJ....126.1090C/abstract) values
 
 Driver et al. (2012, MNRAS, 427, 3244)
 
@@ -203,7 +203,7 @@ Willmer et al. (2006, ApJ, 647, 853)
 
 - Tables 4 and 5, "minimal" weights
 - $$H_0 = 70\,\mathrm{km}\,\mathrm{s}^{-1}\,\mathrm{kpc}$$ gives $$h=1$$ so no conversion of values necessary
-- Uncertainties on $$\alpha$$ set sufficiently large due to fixed value
+- Uncertainties on $$\alpha$$ set manually due to fixed value
 - Parameters quoted as $$M^*$$, $$\phi^*$$, $$\alpha$$ for various $$z$$ values; linear slopes fit for using the original bin values
 
 Cool et al. (2012, ApJ, 748, 10)
@@ -211,13 +211,13 @@ Cool et al. (2012, ApJ, 748, 10)
 - Tables 4 and 5
 - Conversion from units of $$h^3\,\mathrm{Mpc}^{-3}$$ and $$M^* - 5\log_{10}(h)$$ using $$h=0.7$$
 - $$M^*_0$$translated from $$z_0 = 0.1$$ to $$z=0$$
-- Uncertainties on $$\alpha$$ set sufficiently large due to fixed value
+- Uncertainties on $$\alpha$$ set manually due to fixed value
 
 Beare et al. (2019, ApJ, 873, 78)
 
 - Table 4
 - $$H_0 = 70\,\mathrm{km}\,\mathrm{s}^{-1}\,\mathrm{kpc}$$ gives $$h_{70}=1$$ so no conversion of values necessary
-- Uncertainties on $$\alpha$$ set sufficiently large due to fixed value
+- Uncertainties on $$\alpha$$ set manually due to fixed value
 -Parameters quoted as $$M^*$$, $$\phi^*$$, $$\alpha$$ for various $$z$$ values; linear slopes fit for using the original bin values
 
 Lim et al. (2020, ApJ, 889, 80)
@@ -225,7 +225,7 @@ Lim et al. (2020, ApJ, 889, 80)
 - Table 9, non-fixed faint-end slope
 - Single Schechter slope, but split 60%-40% blue-red galaxies in $$\phi^*$$
 - Parameters quoted as $$\log_{10}(L^*/L_\odot)$$, $$\phi^*$$, $$\alpha$$ for various $$z$$ values; linear slopes fit for using the original bin values
-- Conversion from "IR" luminosity $$\log_{10}(L*/L_\odot)$$ in 8-1000$$\mu\,\mathrm{m}$$ "bandpass" to absolute AB magnitudes using the Solar spectrum from $$\texttt{calspec}$$; value not used in derivation of $$M^*_0(\log_{10}(\lambda))$$ but presented for reference in the sub-mm wavelength range
+- Conversion from "IR" luminosity $$\log_{10}(L*/L_\odot)$$ in 8-1000$$\mu\,\mathrm{m}$$ "bandpass" to absolute AB magnitudes using the Solar spectrum from $$\texttt{calspec}$$; value not used in derivation of $$M^*_0(\log_{10}(\lambda / \mu\mathrm{m}))$$ but presented for reference in the sub-mm wavelength range
 
 Moutard et al. (2020, MNRAS, 494, 1894)
 
