@@ -152,7 +152,7 @@ Dai et al. (2009, ApJ, 697, 506)
 - Conversion from units of $$h^3\,\mathrm{Mpc}^{-3}$$ and $$M^* - 5\log_{10}(h)$$ using $$h=0.7$$
 - $$M^*_0$$ translated from $$z_0 = 0.25$$ to $$z=0$$
 - $$P$$ and $$Q$$ not used in fitting $$P(\log_{10}(\lambda / \mu\mathrm{m}))$$ or $$Q(P)$$, but has its $$Q$$ values represented in Figure 1 of Wilson (2022, RNAAS, ...) at $$P = 0$$, the value fixed during the derivation for these parameters
-- $$M^*$$ quoted in the Vega magnitude system, so for self-consistency had its values converted to the AB system using [table 4.2, IRAC instrument handbook]( https://irsa.ipac.caltech.edu/data/SPITZER/docs/irac/iracinstrumenthandbook/14/#_Toc82083798)
+- $$M^*$$ quoted in the Vega magnitude system, so for self-consistency had its values converted to the AB system using [table 4.2, IRAC instrument handbook](https://irsa.ipac.caltech.edu/data/SPITZER/docs/irac/iracinstrumenthandbook/14/#_Toc82083799)
 
 Kochanek et al. (2001, ApJ 560 566)
 
