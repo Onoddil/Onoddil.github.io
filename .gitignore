@@ -5,3 +5,6 @@
 **.log
 **.synctex.gz
 **_markdown_table.md
+**cmau_array.npy
+**/Fit Evolution/*
+**galaxy_count_parameters.pdf

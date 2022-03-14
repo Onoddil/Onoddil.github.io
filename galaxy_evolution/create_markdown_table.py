@@ -17,8 +17,7 @@ param_dtype = [('Citation', 'U100'), ('Ref', 'U100'), ('band', 'U5'), ('type', '
                ('logphim', float), ('phi (unc)', float), ('dphip (unc)', float),
                ('dphim (unc)', float), ('M (unc)', float), ('dMp (unc)', float),
                ('dMm (unc)', float)]
-a = np.genfromtxt('../../Postdocs/2019- Exeter/Work/Galaxy Evolution/'
-                  'galaxy_count_parameters.csv', delimiter=',', dtype=param_dtype, skip_header=1)
+a = np.genfromtxt('galaxy_count_parameters.csv', delimiter=',', dtype=param_dtype, skip_header=1)
 
 f = open('schechter_markdown_table.md', 'w+')
 f.write(r'| Citation | Band | Wavelength / nm | Type | $$M^*_0$$ / AB mag | $$\phi^*_0$$ / Mpc$$^{-3}$$mag$$^{-1}$$ | $$\alpha$$ | Q / mag $$z^{-1}$$ | P / $$z^{-1}$$|' '\n')
@@ -40,7 +39,7 @@ for i in range(len(a)):
 
 f.close()
 
-cmau_array = np.load('../../Postdocs/2019- Exeter/Work/Galaxy Evolution/cmau_array.npy')
+cmau_array = np.load('cmau_array.npy')
 c_array, m_array = cmau_array[:, :, 0], cmau_array[:, :, 1]
 a_array, u_array = cmau_array[:, :, 2], cmau_array[:, :, 3]
 
