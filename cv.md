@@ -22,37 +22,39 @@ Wilson Tom J., Naylor T., in prep.; Improvements to the Astrometric Uncertainty 
 
 Wilson Tom J., in review; Overcoming Separation Between Counterparts Due to Unknown Proper Motions in Catalogue Cross-Matching
 
-Wilson Tom J., 2021, RNAAS, 5, 265; On the Use of Evidence and Goodness-of-Fit Metrics in Exoplanet Atmosphere Interpretation
+[Wilson Tom J., 2021, RNAAS, 5, 265](https://ui.adsabs.harvard.edu/abs/2021RNAAS...5..265W/abstract); On the Use of Evidence and Goodness-of-Fit Metrics in Exoplanet Atmosphere Interpretation
 
-Wilson Tom J., Naylor T., 2018, MNRAS, 481, 2148; A Contaminant-Free Catalogue of _Gaia_ DR2-_WISE_ Galactic Plane Matches: Including the Effects of Crowding in the Cross-Matching of Photometric Catalogues
+[Wilson Tom J., Naylor T., 2018, MNRAS, 481, 2148](https://ui.adsabs.harvard.edu/abs/2018MNRAS.481.2148W/abstract); A Contaminant-Free Catalogue of _Gaia_ DR2-_WISE_ Galactic Plane Matches: Including the Effects of Crowding in the Cross-Matching of Photometric Catalogues
 
-Wilson Tom J., Naylor T., 2018, MNRAS, 473, 5570; Improving Catalogue Matching By Supplementing Astrometry with Additional Photometric Information
+[Wilson Tom J., Naylor T., 2018, MNRAS, 473, 5570](https://ui.adsabs.harvard.edu/abs/2018MNRAS.473.5570W/abstract); Improving Catalogue Matching By Supplementing Astrometry with Additional Photometric Information\
+\ \ \ \ [VizieR Online Data Catalog](https://ui.adsabs.harvard.edu/abs/2018yCat.4035....0W/abstract): Gaia DR2-WISE Galactic Plane Matches (Wilson+, 2018)
 
-Wilson Tom J., Naylor T., 2017, MNRAS, 469, 2517; The Effect of Unresolved Contaminant Stars on the Cross-matching of Photometric Catalogues
+[Wilson Tom J., Naylor T., 2017, MNRAS, 469, 2517](https://ui.adsabs.harvard.edu/abs/2017MNRAS.468.2517W/abstract); The Effect of Unresolved Contaminant Stars on the Cross-matching of Photometric Catalogues
 
 ## Co-Author Publications
 
-Bruno G., Lewis N. K., Valenti J. A., Pagano I., Wilson T. J., et al., 2022, MNRAS, 509, 5030; Hiding in Plain Sight: Observing Planet-Starspot Crossings with the _James Webb Space Telescope_
+[Bruno G., Lewis N. K., Valenti J. A., Pagano I., Wilson T. J., et al., 2022, MNRAS, 509, 5030](https://ui.adsabs.harvard.edu/abs/2022MNRAS.509.5030B/abstract); Hiding in Plain Sight: Observing Planet-Starspot Crossings with the _James Webb Space Telescope_
 
-Bradley L., Sipőcz B., Robitaille T., Tollerud E., Vinícius Z., Deil C., Barbary K., Wilson T. J., et al., 2019-2021, DOI:10.5281/zenodo.4624996; astropy/photutils: v0.6 through v1.1.0
+[Bradley L., Sipőcz B., Robitaille T., Tollerud E., Vinícius Z., Deil C., Barbary K., Wilson T. J., et al., 2019-2021](https://ui.adsabs.harvard.edu/abs/2021zndo...4624996B/abstract), DOI:10.5281/zenodo.4624996; astropy/photutils: v0.6 through v1.1.0
 
-Lewis N. K., ..., Wilson T. J., et al., 2020, ApJL, 902, 19; Into the UV: The Atmosphere of the Hot Jupiter HAT-P-41b Revealed
+[Lewis N. K., ..., Wilson T. J., et al., 2020, ApJL, 902, 19](https://ui.adsabs.harvard.edu/abs/2020ApJ...902L..19L/abstract); Into the UV: The Atmosphere of the Hot Jupiter HAT-P-41b Revealed
 
-Wakeford H. R., Sing D. K., Stevenson K. B., Lewis N. K., Pirzkal N., Wilson T. J., et al., 2020, AJ, 159, 204; Into the UV: A Precise Transmission Spectrum of HAT-P-41b Using Hubble's WFC3/UVIS G280 Grism
+[Wakeford H. R., Sing D. K., Stevenson K. B., Lewis N. K., Pirzkal N., Wilson T. J., et al., 2020, AJ, 159, 204](https://ui.adsabs.harvard.edu/abs/2020AJ....159..204W/abstract); Into the UV: A Precise Transmission Spectrum of HAT-P-41b Using Hubble's WFC3/UVIS G280 Grism
 
-Steinhardt C., ..., Wilson T. J., et al., 2020, ApJS, 247, 64; The Buffalo HST Survey
+[Steinhardt C., ..., Wilson T. J., et al., 2020, ApJS, 247, 64](https://ui.adsabs.harvard.edu/abs/2020ApJS..247...64S/abstract); The Buffalo HST Survey
 
-Wakeford H. R., Wilson T. J., et al., 2019, RNAAS, 3, 7; Exoplanet Atmosphere Forecast: Observers Should Expect Spectroscopic Transmission Features to be Muted to 33%
+[Wakeford H. R., Wilson T. J., et al., 2019, RNAAS, 3, 7](https://ui.adsabs.harvard.edu/abs/2019RNAAS...3....7W/abstract); Exoplanet Atmosphere Forecast: Observers Should Expect Spectroscopic Transmission Features to be Muted to 33%
 
-Wakeford H. R., Lewis N. K., Fowler J., Bruno G., Wilson T. J., et al., 2019, AJ, 157, 11; Disentangling the Planet from the Star in Late-Type M Dwarfs: A Case Study of TRAPPIST-1g
+[Wakeford H. R., Lewis N. K., Fowler J., Bruno G., Wilson T. J., et al., 2019, AJ, 157, 11](https://ui.adsabs.harvard.edu/abs/2019AJ....157...11W/abstract); Disentangling the Planet from the Star in Late-Type M Dwarfs: A Case Study of TRAPPIST-1g
 
-Wakeford H. R., Sing D. K., Deming D., Lewis N. K., Goyal J., Wilson T. J., et al., 2018, AJ, 155, 29; The Complete Transmission Spectrum of WASP-39b with a Precise Water Constraint
+[Wakeford H. R., Sing D. K., Deming D., Lewis N. K., Goyal J., Wilson T. J., et al., 2018, AJ, 155, 29](https://ui.adsabs.harvard.edu/abs/2018AJ....155...29W/abstract); The Complete Transmission Spectrum of WASP-39b with a Precise Water Constraint
 
-Rumble D., Hatchell J., Pattle K., Kirk H., Wilson T., et al., 2016, MNRAS, 460, 4150; The JCMT Gould Belt Survey: Evidence for Radiative Heating and Contamination in the W40 Complex
+[Rumble D., Hatchell J., Pattle K., Kirk H., Wilson T., et al., 2016, MNRAS, 460, 4150](https://ui.adsabs.harvard.edu/abs/2016MNRAS.460.4150R/abstract); The JCMT Gould Belt Survey: Evidence for Radiative Heating and Contamination in the W40 Complex\
+\ \ \ \ [VizieR Online Data Catalog](https://ui.adsabs.harvard.edu/abs/2017yCat..74604150R/abstract): JCMT Gould Belt Survey: W40 complex (Rumble+, 2016)
 
-Rees J., Wilson T., et al., 2016, IAUS, 314, 205; The Age of Taurus: Environmental Effects on Disc Lifetimes
+[Rees J., Wilson T., et al., 2016, IAUS, 314, 205](https://ui.adsabs.harvard.edu/abs/2016IAUS..314..205R/abstract); The Age of Taurus: Environmental Effects on Disc Lifetimes
 
-Hatchell J., Wilson T., et al., 2013, MNRAS, 429, 10; The JCMT Gould Belt Survey: SCUBA-2 Observations of Radiative Feedback in NGC 1333
+[Hatchell J., Wilson T., et al., 2013, MNRAS, 429, 10](https://ui.adsabs.harvard.edu/abs/2013MNRAS.429L..10H/abstract); The JCMT Gould Belt Survey: SCUBA-2 Observations of Radiative Feedback in NGC 1333
 
 [//]: # Rees J., Wilson Tom J., et al., in prep.; Pre-main-sequence Isochrones -- IV. the Age of Taurus and Increased Disc Lifetimes in Low-Density Environments
 
