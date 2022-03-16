@@ -218,7 +218,7 @@ Beare et al. (2019, ApJ, 873, 78)
 - Table 4
 - $$H_0 = 70\,\mathrm{km}\,\mathrm{s}^{-1}\,\mathrm{kpc}$$ gives $$h_{70}=1$$ so no conversion of values necessary
 - Uncertainties on $$\alpha$$ set manually due to fixed value
--Parameters quoted as $$M^*$$, $$\phi^*$$, $$\alpha$$ for various $$z$$ values; linear slopes fit for using the original bin values
+- Parameters quoted as $$M^*$$, $$\phi^*$$, $$\alpha$$ for various $$z$$ values; linear slopes fit for using the original bin values
 
 Lim et al. (2020, ApJ, 889, 80)
 
