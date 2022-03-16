@@ -2,11 +2,11 @@ import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib import gridspec
 from scipy.optimize import minimize
-from astropy.modeling.models import Linear1D, Exponential1D
-from astropy.cosmology import default_cosmology
-import skypy.galaxies as skygal
+# from astropy.modeling.models import Linear1D, Exponential1D
+# from astropy.cosmology import default_cosmology
+# import skypy.galaxies as skygal
 import astropy.units as u
-from speclite.filters import FilterResponse, load_filters
+from macauff.galaxy_counts import create_galaxy_counts, generate_speclite_filters
 
 
 def gridcreate(name, y, x, ratio, z, **kwargs):
@@ -126,104 +126,104 @@ def g_hess(p, x, y, o, factor1, factor2):
     return hess
 
 
-def function_evaluation_lookup(cmau, ind1, ind2, x):
-    c, m, a, u = cmau[ind1, ind2]
-    if np.isnan(a) and np.isnan(u):
-        return m * x + c
-    elif np.isnan(u):
-        return c + a * np.exp(-x * m)
-    else:
-        return c + a * np.exp(-0.5 * (x - u)**2 * m)
+# def function_evaluation_lookup(cmau, ind1, ind2, x):
+#     c, m, a, u = cmau[ind1, ind2]
+#     if np.isnan(a) and np.isnan(u):
+#         return m * x + c
+#     elif np.isnan(u):
+#         return c + a * np.exp(-x * m)
+#     else:
+#         return c + a * np.exp(-0.5 * (x - u)**2 * m)
 
 
-# Not currently used, but kept for completeness:
-def galaxy_apparent_magnitudes(M_star, phi_star, magnitude_limit, sky_area, alpha, alpha0, alpha1,
-                               weight, _filter, z_min, z_max, nz):
-    cosmology = default_cosmology.get()
-    z_range = np.linspace(z_min, z_max, nz)
-    redshift, magnitude = skygal.schechter_lf(redshift=z_range, M_star=M_star, phi_star=phi_star,
-                                              alpha=alpha, m_lim=magnitude_limit, sky_area=sky_area,
-                                              cosmology=cosmology)
-    spectral_coefficients = skygal.spectrum.dirichlet_coefficients(
-        redshift=redshift, alpha0=alpha0, alpha1=alpha1, weight=weight)
-    stellar_mass = skygal.spectrum.kcorrect.stellar_mass(coefficients=spectral_coefficients,
-                                                         magnitudes=magnitude, filter=_filter)
-    app_mags = skygal.spectrum.kcorrect.apparent_magnitudes(
-        coefficients=spectral_coefficients, redshift=redshift, filters=_filter,
-        cosmology=cosmology, stellar_mass=stellar_mass)
+# # Not currently used, but kept for completeness:
+# def galaxy_apparent_magnitudes(M_star, phi_star, magnitude_limit, sky_area, alpha, alpha0, alpha1,
+#                                weight, _filter, z_min, z_max, nz):
+#     cosmology = default_cosmology.get()
+#     z_range = np.linspace(z_min, z_max, nz)
+#     redshift, magnitude = skygal.schechter_lf(redshift=z_range, M_star=M_star, phi_star=phi_star,
+#                                               alpha=alpha, m_lim=magnitude_limit, sky_area=sky_area,
+#                                               cosmology=cosmology)
+#     spectral_coefficients = skygal.spectrum.dirichlet_coefficients(
+#         redshift=redshift, alpha0=alpha0, alpha1=alpha1, weight=weight)
+#     stellar_mass = skygal.spectrum.kcorrect.stellar_mass(coefficients=spectral_coefficients,
+#                                                          magnitudes=magnitude, filter=_filter)
+#     app_mags = skygal.spectrum.kcorrect.apparent_magnitudes(
+#         coefficients=spectral_coefficients, redshift=redshift, filters=_filter,
+#         cosmology=cosmology, stellar_mass=stellar_mass)
 
-    return app_mags  # + 5 * np.log10(1 + redshift)
-
-
-def galaxy_parameterisation_wrapper(wavs, m_array, c_array, mag_lim, sky_area, filters,
-                                    z_min, z_max, nz, a_array, u_array,
-                                    filter_set_name=None, filter_names=None, filter_wavs=None,
-                                    filter_responses=None, filter_units=None):
-    if filters == 'generate':
-        if np.any([var is None for var in [
-                filter_set_name, filter_names, filter_wavs, filter_responses, filter_units]]):
-            raise UserWarning("Supply all of the parameters to generate a filter!")
-        generate_speclite_filters(
-            filter_set_name, filter_names, filter_wavs, filter_responses, filter_units)
-        filters = ['{}-{}'.format(filter_set_name, q) for q in filter_names]
-    else:
-        # Convert a single string to an iterable object.
-        filters = np.atleast_1d(filters)
-    wavs = np.atleast_1d(wavs)
-    alpha0_blue = [2.079, 3.524, 1.917, 1.992, 2.536]
-    alpha1_blue = [2.265, 3.862, 1.921, 1.685, 2.480]
-    weight_blue = [3.47e+09, 3.31e+06, 2.13e+09, 1.64e+10, 1.01e+09]
-    alpha0_red = [2.461, 2.358, 2.568, 2.268, 2.402]
-    alpha1_red = [2.410, 2.340, 2.200, 2.540, 2.464]
-    weight_red = [3.84e+09, 1.57e+06, 3.91e+08, 4.66e+10, 3.03e+07]
-
-    galaxies = []
-    for wav, _filter in zip(wavs, filters):
-        # wav should be in microns!
-        log_wav = np.log10(wav)
-
-        Mstar = function_evaluation_lookup(m_array, c_array, a_array, u_array, 0, 0, log_wav)
-        alpha = function_evaluation_lookup(m_array, c_array, a_array, u_array, 2, 0, log_wav)
-        phistar = function_evaluation_lookup(m_array, c_array, a_array, u_array, 1, 0, log_wav)
-        P = function_evaluation_lookup(m_array, c_array, a_array, u_array, 3, 0, log_wav)
-        Q = function_evaluation_lookup(m_array, c_array, a_array, u_array, 4, 0, P)
-        # phi*(z) = phi* * 10**(0.4 P z) = phi* exp(0.4 * ln(10) P z)
-        # and thus Exponential1D being of the form exp(x / tau), tau = 1 / (0.4 * ln(10) P)
-        tau = 1 / (0.4 * np.log(10) * P)
-        blue_gal_dict = {
-            'M_star': Linear1D(-Q, Mstar), 'phi_star': Exponential1D(phistar, tau),
-            'magnitude_limit': mag_lim, 'sky_area': sky_area * u.deg**2, 'alpha': alpha,
-            'alpha0': alpha0_blue, 'alpha1': alpha1_blue, 'weight': weight_blue, '_filter': _filter}
-        Mstar = function_evaluation_lookup(m_array, c_array, a_array, u_array, 0, 1, log_wav)
-        alpha = function_evaluation_lookup(m_array, c_array, a_array, u_array, 2, 1, log_wav)
-        phistar = function_evaluation_lookup(m_array, c_array, a_array, u_array, 1, 1, log_wav)
-        P = function_evaluation_lookup(m_array, c_array, a_array, u_array, 3, 1, log_wav)
-        Q = function_evaluation_lookup(m_array, c_array, a_array, u_array, 4, 1, P)
-        tau = 1 / (0.4 * np.log(10) * P)
-        red_gal_dict = {
-            'M_star': Linear1D(-Q, Mstar), 'phi_star': Exponential1D(phistar, tau),
-            'magnitude_limit': mag_lim, 'sky_area': sky_area * u.deg**2, 'alpha': alpha,
-            'alpha0': alpha0_red, 'alpha1': alpha1_red, 'weight': weight_red, '_filter': _filter}
-
-        blue_galaxies = galaxy_apparent_magnitudes(**blue_gal_dict, z_min=z_min, z_max=z_max, nz=nz)
-        red_galaxies = galaxy_apparent_magnitudes(**red_gal_dict, z_min=z_min, z_max=z_max, nz=nz)
-        galaxies.append(np.hstack([blue_galaxies, red_galaxies]))
-
-    return galaxies
+#     return app_mags  # + 5 * np.log10(1 + redshift)
 
 
-def generate_speclite_filters(group_name, filter_names, wavelength_list, response_list,
-                              wavelength_unit):
-    for filt_name, wavelength, response in zip(filter_names, wavelength_list, response_list):
-        FilterResponse(wavelength=wavelength*wavelength_unit, response=response,
-                       meta=dict(group_name=group_name, band_name=filt_name))
+# def galaxy_parameterisation_wrapper(wavs, m_array, c_array, mag_lim, sky_area, filters,
+#                                     z_min, z_max, nz, a_array, u_array,
+#                                     filter_set_name=None, filter_names=None, filter_wavs=None,
+#                                     filter_responses=None, filter_units=None):
+#     if filters == 'generate':
+#         if np.any([var is None for var in [
+#                 filter_set_name, filter_names, filter_wavs, filter_responses, filter_units]]):
+#             raise UserWarning("Supply all of the parameters to generate a filter!")
+#         generate_speclite_filters(
+#             filter_set_name, filter_names, filter_wavs, filter_responses, filter_units)
+#         filters = ['{}-{}'.format(filter_set_name, q) for q in filter_names]
+#     else:
+#         # Convert a single string to an iterable object.
+#         filters = np.atleast_1d(filters)
+#     wavs = np.atleast_1d(wavs)
+#     alpha0_blue = [2.079, 3.524, 1.917, 1.992, 2.536]
+#     alpha1_blue = [2.265, 3.862, 1.921, 1.685, 2.480]
+#     weight_blue = [3.47e+09, 3.31e+06, 2.13e+09, 1.64e+10, 1.01e+09]
+#     alpha0_red = [2.461, 2.358, 2.568, 2.268, 2.402]
+#     alpha1_red = [2.410, 2.340, 2.200, 2.540, 2.464]
+#     weight_red = [3.84e+09, 1.57e+06, 3.91e+08, 4.66e+10, 3.03e+07]
 
-    # directory_name = '.'
-    # f_name = whatever_filterresponse_gets_passed_to.save(directory_name)
-    # f_name = os.path.join(directory_name, '{}-{}.ecsv'.format(group_name, filter_names[i]))
-    # some_variable_name = speclite.filters.load_filter(f_name) -> this can just be passed through
-    # galaxy_apparent_magnitude as a filters list, since speclite.filters.load_filters() takes
-    # a list of .ecsv filepaths.
+#     galaxies = []
+#     for wav, _filter in zip(wavs, filters):
+#         # wav should be in microns!
+#         log_wav = np.log10(wav)
+
+#         Mstar = function_evaluation_lookup(m_array, c_array, a_array, u_array, 0, 0, log_wav)
+#         alpha = function_evaluation_lookup(m_array, c_array, a_array, u_array, 2, 0, log_wav)
+#         phistar = function_evaluation_lookup(m_array, c_array, a_array, u_array, 1, 0, log_wav)
+#         P = function_evaluation_lookup(m_array, c_array, a_array, u_array, 3, 0, log_wav)
+#         Q = function_evaluation_lookup(m_array, c_array, a_array, u_array, 4, 0, P)
+#         # phi*(z) = phi* * 10**(0.4 P z) = phi* exp(0.4 * ln(10) P z)
+#         # and thus Exponential1D being of the form exp(x / tau), tau = 1 / (0.4 * ln(10) P)
+#         tau = 1 / (0.4 * np.log(10) * P)
+#         blue_gal_dict = {
+#             'M_star': Linear1D(-Q, Mstar), 'phi_star': Exponential1D(phistar, tau),
+#             'magnitude_limit': mag_lim, 'sky_area': sky_area * u.deg**2, 'alpha': alpha,
+#             'alpha0': alpha0_blue, 'alpha1': alpha1_blue, 'weight': weight_blue, '_filter': _filter}
+#         Mstar = function_evaluation_lookup(m_array, c_array, a_array, u_array, 0, 1, log_wav)
+#         alpha = function_evaluation_lookup(m_array, c_array, a_array, u_array, 2, 1, log_wav)
+#         phistar = function_evaluation_lookup(m_array, c_array, a_array, u_array, 1, 1, log_wav)
+#         P = function_evaluation_lookup(m_array, c_array, a_array, u_array, 3, 1, log_wav)
+#         Q = function_evaluation_lookup(m_array, c_array, a_array, u_array, 4, 1, P)
+#         tau = 1 / (0.4 * np.log(10) * P)
+#         red_gal_dict = {
+#             'M_star': Linear1D(-Q, Mstar), 'phi_star': Exponential1D(phistar, tau),
+#             'magnitude_limit': mag_lim, 'sky_area': sky_area * u.deg**2, 'alpha': alpha,
+#             'alpha0': alpha0_red, 'alpha1': alpha1_red, 'weight': weight_red, '_filter': _filter}
+
+#         blue_galaxies = galaxy_apparent_magnitudes(**blue_gal_dict, z_min=z_min, z_max=z_max, nz=nz)
+#         red_galaxies = galaxy_apparent_magnitudes(**red_gal_dict, z_min=z_min, z_max=z_max, nz=nz)
+#         galaxies.append(np.hstack([blue_galaxies, red_galaxies]))
+
+#     return galaxies
+
+
+# def generate_speclite_filters(group_name, filter_names, wavelength_list, response_list,
+#                               wavelength_unit):
+#     for filt_name, wavelength, response in zip(filter_names, wavelength_list, response_list):
+#         FilterResponse(wavelength=wavelength*wavelength_unit, response=response,
+#                        meta=dict(group_name=group_name, band_name=filt_name))
+
+#     # directory_name = '.'
+#     # f_name = whatever_filterresponse_gets_passed_to.save(directory_name)
+#     # f_name = os.path.join(directory_name, '{}-{}.ecsv'.format(group_name, filter_names[i]))
+#     # some_variable_name = speclite.filters.load_filter(f_name) -> this can just be passed through
+#     # galaxy_apparent_magnitude as a filters list, since speclite.filters.load_filters() takes
+#     # a list of .ecsv filepaths.
 
 
 param_dtype = [('Citation', 'U100'), ('Ref', 'U100'), ('band', 'U5'), ('type', 'U1'),
@@ -242,10 +242,10 @@ cmau_array = np.zeros((5, 2, 4), float) * np.nan
 
 gs = gridcreate('12313', 3, 4, 0.8, 5)
 
-for i, (varname, label, per_err, sys_err, w) in enumerate(zip(
+for i, (varname, label, per_err, sys_err) in enumerate(zip(
     ['M', 'phi', 'alpha', 'P'], [r'$M^*_0$ / AB mag', r'$\phi^*_0$ / Mpc$^{{-3}}$ mag$^{{-1}}$',
                                  r'$\alpha$', 'P / $z^{{-1}}$'],
-        [0.05, 0.05, 0.05, 0.05], [0, 0.001, 0.01, 0.1], [3, 4, 4, 3])):
+        [0.05, 0.05, 0.05, 0.05], [0, 0.001, 0.01, 0.1])):
     ax = plt.subplot(gs[i])
     for j, (typing, col) in enumerate(zip(['b', 'r'], ['b', 'r'])):
         q = (params['type'] == typing) & ~np.isnan(params[varname])
@@ -294,18 +294,21 @@ for i, (varname, label, per_err, sys_err, w) in enumerate(zip(
             c, m, a = res.x
             c, a = c / factor1, a / factor2
             ax.plot(10**_x, c + a * np.exp(-_x * m), '{}-'.format(col),
-                    label=r'a = {:.3e}$\pm${:.3e},' '\n' r'm = {:.{w}f}$\pm${:.{w}f},' '\n' r'c = {:.{w}f}$\pm${:.{w}f}'.format(
-                        a, sigs[2]/factor2, m, sigs[1], c, sigs[0]/factor1, w=w))
+                    label=r'a = {:.2e}$\pm${:.2e},' '\n' r'm = {:.3f}$\pm${:.3f},' '\n'
+                    r'c = {:.{w}f}$\pm${:.{w}f}'.format(
+                        a, sigs[2]/factor2, m, sigs[1], c, sigs[0]/factor1,
+                        w=3 if varname == 'M' else 5))
         elif run_flag == 2:
             c, m, a, mu = res.x
             c, a = c / factor1, a / factor2
             ax.plot(10**_x, c + a * np.exp(-0.5 * (_x - mu)**2 * m), '{}-'.format(col),
-                    label=r'u = {:.3e}$\pm${:.3e},' '\n' r'a = {:.3e}$\pm${:.3e},' '\n' r'm = {:.{w}f}$\pm${:.{w}f},' '\n' r'c = {:.{w}e}$\pm${:.{w}e}'.format(
-                        mu, sigs[3], a, sigs[2]/factor2, m, sigs[1], c, sigs[0]/factor1, w=w))
+                    label=r'u = {:.2e}$\pm${:.2e},' '\n' r'a = {:.2e}$\pm${:.2e},' '\n'
+                    r'm = {:.3f}$\pm${:.3f},' '\n' r'c = {:.2e}$\pm${:.2e}'.format(
+                        mu, sigs[3], a, sigs[2]/factor2, m, sigs[1], c, sigs[0]/factor1))
         else:
             ax.plot(10**_x, res.x[0] + _x * res.x[1], '{}-'.format(col),
-                    label=r'm = {:.{w}f}$\pm${:.{w}f},' '\n' r'c = {:.{w}f}$\pm${:.{w}f}'.format(
-                        res.x[1], sigs[1], res.x[0], sigs[0], w=w))
+                    label=r'm = {:.3f}$\pm${:.3f},' '\n' r'c = {:.3f}$\pm${:.3f}'.format(
+                        res.x[1], sigs[1], res.x[0], sigs[0]))
         if run_flag == 1 or run_flag == 2:
             cmau_array[i, j, 0] = c
         else:
@@ -315,10 +318,10 @@ for i, (varname, label, per_err, sys_err, w) in enumerate(zip(
             cmau_array[i, j, 2] = a
         if len(res.x) > 3:
             cmau_array[i, j, 3] = mu
-    ax.set_xlabel(r'$\lambda$ / $\mu$m', fontsize=14)
-    ax.set_ylabel(label, fontsize=14)
+    ax.set_xlabel(r'$\lambda$ / $\mu$m', fontsize=18)
+    ax.set_ylabel(label, fontsize=18)
     ax.set_xscale('log')
-    ax.legend(fontsize=10)
+    ax.legend(fontsize=12)
 
 ax = plt.subplot(gs[4])
 for typing, j in zip(['b', 'r'], [0, 1]):
@@ -364,7 +367,7 @@ for typing, j in zip(['b', 'r'], [0, 1]):
     _x = np.linspace(np.amin(x), np.amax(x), 10000)
     xlims, ylims = ax.get_xlim(), ax.get_ylim()
     ax.plot(_x, res.x[0] + _x * res.x[1], '{}-'.format(typing),
-            label=r'm = {:.4f}$\pm${:.4f}, c = {:.4f}$\pm${:.4f}'.format(
+            label=r'm = {:.4f}$\pm${:.4f},' '\n' r'c = {:.4f}$\pm${:.4f}'.format(
                 res.x[1], sigs[1], res.x[0], sigs[0]))
 
     log_lam = np.linspace(np.log10(0.4), np.log10(450), 1000)
@@ -374,9 +377,9 @@ for typing, j in zip(['b', 'r'], [0, 1]):
 
     ax.set_xlim(*xlims)
     ax.set_ylim(*ylims)
-ax.set_xlabel('P / $z^{{-1}}$', fontsize=14)
-ax.set_ylabel('Q / mag $z^{{-1}}$', fontsize=14)
-ax.legend(fontsize=8)
+ax.set_xlabel('P / $z^{{-1}}$', fontsize=18)
+ax.set_ylabel('Q / mag $z^{{-1}}$', fontsize=18)
+ax.legend(fontsize=12)
 
 
 alpha0_blue = [2.079, 3.524, 1.917, 1.992, 2.536]
@@ -421,7 +424,6 @@ for ind, wav, filters, file_name, offset, label, z_max in zip(
     else:
         filters_load = filters
     ax = plt.subplot(gs[ind])
-    mag_lim, sky_area = 35, 30
     z_array_ = np.array([0, 0.01, 0.05, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1, 1.25,
                          1.5, 1.75, 2, 2.25, 2.5, 2.75, 3, 3.25, 3.5, 3.75, 4, 4.25, 4.5, 4.75, 5])
     z_array = z_array_[z_array_ <= z_max]
@@ -429,76 +431,16 @@ for ind, wav, filters, file_name, offset, label, z_max in zip(
                     'violet', 'pink', 'lavenderblush', 'k'])
 
     app_bins = np.linspace(0, 30, 150)
-    app_dens = np.zeros_like(app_bins)
-    for i, (z_min, z_max) in enumerate(zip(z_array[:-1], z_array[1:])):
-        nz = 11
-        bins = np.linspace(-60, 50, 400)
-        z_range = np.linspace(z_min, z_max, nz)
-        cosmology = default_cosmology.get()
-        dV_dz = (cosmology.differential_comoving_volume(z_range) * sky_area *
-                 u.deg**2).to_value('Mpc3')
-        dV = np.trapz(dV_dz, z_range)
-
-        log_wav = np.log10(wav)
-        Mstar = function_evaluation_lookup(cmau_array, 0, 0, log_wav)
-        alpha1 = function_evaluation_lookup(cmau_array, 2, 0, log_wav)
-        phistar = function_evaluation_lookup(cmau_array, 1, 0, log_wav)
-        P = function_evaluation_lookup(cmau_array, 3, 0, log_wav)
-        Q = function_evaluation_lookup(cmau_array, 4, 0, P)
-        tau = 1 / (0.4 * np.log(10) * P)
-        # Median-redshift Schechter function
-        m_star1 = Linear1D(slope=-Q, intercept=Mstar)
-        phi_star1 = Exponential1D(amplitude=phistar, tau=tau)
-        L = 10 ** (0.4 * (m_star1(z_range) - bins[:, np.newaxis]))
-        phi_model_z = 0.4 * np.log(10) * phi_star1(z_range) * L ** (alpha1+1) * np.exp(-L)
-        phi_model1 = np.median(phi_model_z, axis=1) * dV / sky_area
-
-        Mstar = function_evaluation_lookup(cmau_array, 0, 1, log_wav)
-        alpha2 = function_evaluation_lookup(cmau_array, 2, 1, log_wav)
-        phistar = function_evaluation_lookup(cmau_array, 1, 1, log_wav)
-        P = function_evaluation_lookup(cmau_array, 3, 1, log_wav)
-        Q = function_evaluation_lookup(cmau_array, 4, 1, P)
-        tau = 1 / (0.4 * np.log(10) * P)
-        m_star2 = Linear1D(slope=-Q, intercept=Mstar)
-        phi_star2 = Exponential1D(amplitude=phistar, tau=tau)
-        L = 10 ** (0.4 * (m_star2(z_range) - bins[:, np.newaxis]))
-        phi_model_z = 0.4 * np.log(10) * phi_star2(z_range) * L ** (alpha2+1) * np.exp(-L)
-        phi_model2 = np.median(phi_model_z, axis=1) * dV / sky_area
-
-        w = skygal.spectrum.kcorrect.wavelength
-        t = skygal.spectrum.kcorrect.templates
-        rng = np.random.default_rng()
-
-        redshift = rng.uniform(z_min, z_max, 100)
-        spectral_coefficients = skygal.spectrum.dirichlet_coefficients(
-            redshift=redshift, alpha0=alpha0_blue, alpha1=alpha1_blue, weight=weight_blue)
-
-        kcorr = np.empty_like(redshift)
-        for j in range(len(redshift)):
-            z = redshift[j]
-            f_list = load_filters(filters_load)
-            f = f_list[0]
-            fs = f.create_shifted(z)
-            non_shift_ab_maggy, shift_ab_maggy = 0, 0
-            for k in range(len(t)):
-                non_shift_ab_maggy += spectral_coefficients[j, k] * f.get_ab_maggies(t[k], w)
-                try:
-                    shift_ab_maggy += spectral_coefficients[j, k] * fs.get_ab_maggies(t[k], w)
-                except ValueError:
-                    _t, _w = fs.pad_spectrum(t[k], w, method='edge')
-                    shift_ab_maggy += spectral_coefficients[j, k] * fs.get_ab_maggies(_t, _w)
-            # Backwards to Hogg+ astro-ph/0210394, our "shifted" bandpass is the rest-frame
-            # as opposed to the observer frame.
-            kcorr[j] = -2.5 * np.log10(1/(1+z) * shift_ab_maggy / non_shift_ab_maggy)
-        # Loveday+2015 for absolute -> apparent magnitude conversion
-        q = phi_model1 + phi_model2 > 0
-
-        ax.plot(bins[q] + cosmology.distmod(np.mean(z_range)).value - offset +
-                np.percentile(kcorr, 50), np.log10(phi_model1[q]+phi_model2[q]),
+    for i in range(len(z_array)-1):
+        app_dens = create_galaxy_counts(cmau_array, app_bins, z_array[[i, i+1]], wav,
+                                        [alpha0_blue, alpha0_red], [alpha1_blue, alpha1_red],
+                                        [weight_blue, weight_red], offset, filters_load)
+        q = app_dens > 0
+        ax.plot(app_bins[q], np.log10(app_dens[q]),
                 c=col[i % len(col)], ls='-')
-        app_dens += np.interp(app_bins, bins + cosmology.distmod(np.mean(z_range)).value -
-                              offset + np.percentile(kcorr, 50), phi_model1+phi_model2)
-
+    app_dens = create_galaxy_counts(cmau_array, app_bins, z_array, wav, [alpha0_blue, alpha0_red],
+                                    [alpha1_blue, alpha1_red], [weight_blue, weight_red], offset,
+                                    filters_load)
     ax.plot(app_bins[app_dens > 0], np.log10(app_dens[app_dens > 0]), 'k-')
 
     if 'allwise' in file_name:
@@ -521,8 +463,8 @@ for ind, wav, filters, file_name, offset, label, z_max in zip(
         ax.set_xlim(np.amin(f[:, 0])-0.25, np.amax(f[:, 0])+0.25)
         ax.set_ylim(np.amin(f[:, 1])-0.1, np.amax(f[:, 1])+0.1)
 
-    ax.set_xlabel('{} / mag'.format(label), fontsize=14)
-    ax.set_ylabel('log$_{10}$(sources / deg$^{-2}$ mag$^{-1}$)', fontsize=14)
+    ax.set_xlabel('{} / mag'.format(label), fontsize=18)
+    ax.set_ylabel('log$_{10}$(N / deg$^{-2}$ mag$^{-1}$)', fontsize=18)
 
 plt.tight_layout()
 plt.savefig('galaxy_count_parameters.pdf')

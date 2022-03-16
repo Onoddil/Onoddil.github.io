@@ -9,7 +9,7 @@ $$ \phi(M) = 0.4 \ln(10) \phi^* [10^{-0.4 (M-M^*)}]^{\alpha+1} \exp(-10^{-0.4 (M
 
 The observed differential galaxy count is then derived by a conversion from $$\phi$$ in units of $$\mathrm{Mpc}^{-3}\,\mathrm{mag}^{-1}$$ to sky number densities ($$\mathrm{deg}^{-2}\,\mathrm{mag}^{-1}$$) by consideration of differential comoving volume and an integral over all redshifts. Final observed densities of galaxies in a bandpass are the sum of two Schechter functions, $$\phi_\mathrm{tot} = \phi_b + \phi_r$$, for "blue" (star-forming) and "red" (quiescent) galaxies, and hence we require a total of 10 parameters to describe the density of galaxies at a particular redshift.
 
-To derive galaxy counts for an arbitrary bandpass, a parameterisation for these 10 parameters -- $$M^*_0$$, $$\phi^*_0$$, $$P$$, $$Q$$, and $$\alpha$$, for both blue and red galaxy distributions -- was found as a function of wavelength, with the exception of $$Q$$, which -- due to the degeneracy between it and $$P$$ -- was derived as a function of $$P$$. The functions used to describe these parameters are $$y = m \times x + c$$ for $$Q(P)$$, $$\alpha(\log_{10}(\lambda / \mu\mathrm{m}))$$, and $$P(\log_{10}(\lambda / \mu\mathrm{m}))$$; $$y = A \exp(-m x) + c$$ for $$M^*_0(\log_{10}(\lambda / \mu\mathrm{m}))$$ and blue galaxy $$\phi^*_0(\log_{10}(\lambda / \mu\mathrm{m}))$$; and $$y = A \exp(-0.5 (x - u)^2 \times m) + c$$ for red galaxy $$\phi^*_0(\log_{10}(\lambda / \mu\mathrm{m}))$$. The table below provides the values derived for each parameter fit for both galaxy types, with a machine-readable version of the data available [here](galaxy_count_parameter_table.csv).
+To derive galaxy counts for an arbitrary bandpass, a parameterisation for these 10 parameters -- $$M^*_0$$, $$\phi^*_0$$, $$P$$, $$Q$$, and $$\alpha$$, for both blue and red galaxy distributions -- was found as a function of wavelength, with the exception of $$Q$$, which -- due to the degeneracy between it and $$P$$ -- was derived as a function of $$P$$. The functions used to describe these parameters are $$y(x) = m \times x + c$$ for $$Q(P)$$, $$\alpha(\log_{10}(\lambda / \mu\mathrm{m}))$$, and $$P(\log_{10}(\lambda / \mu\mathrm{m}))$$; $$y(x) = a \exp(-m x) + c$$ for $$M^*_0(\log_{10}(\lambda / \mu\mathrm{m}))$$ and blue galaxy $$\phi^*_0(\log_{10}(\lambda / \mu\mathrm{m}))$$; and $$y(x) = a \exp(-0.5 (x - u)^2 \times m) + c$$ for red galaxy $$\phi^*_0(\log_{10}(\lambda / \mu\mathrm{m}))$$. Note that $$x \equiv \log_{10}(\lambda / \mu\mathrm{m}))$$ in four cases, with $$x \equiv P$$ solely for the parameterisation of $$Q$$. The table below provides the values derived for each parameter fit for both galaxy types, with a machine-readable version of the data available [here](galaxy_count_parameter_table.csv).
 
 | Parameter | Galaxy type | c | m | a | u
 | --- | --- | --- | --- | --- | --- |
@@ -21,8 +21,8 @@ To derive galaxy counts for an arbitrary bandpass, a parameterisation for these 
 | $$\alpha$$ | r | -0.3091 | -0.067 |  |  |
 | $$P$$ | b | -0.3020 | 0.034 |  |  |
 | $$P$$ | r | -0.7131 | 0.233 |  |  |
-| $$Q$$ | b | 1.2574 | -0.390 |  |  |
-| $$Q$$ | r | 0.9125 | -0.549 |  |  |
+| $$Q$$ | b | 1.2336 | -0.322 |  |  |
+| $$Q$$ | r | 1.0689 | -0.386 |  |  |
 
 Additionally, the final table provides the values used to calculate these functional forms, also available in machine-readable form [here](galaxy_count_parameters.csv). The machine-readable .csv file also provides the original, un-corrected literature values of $$M^*_0$$ and $$\phi^*_0$$ -- in linear- and log-form where quoted solely in $$\log_{10}(\phi^*)$$ -- and $$h$$ and $$z_0$$ when conversion from non-zero redshift or values in arbitrary $$H_0$$ values are quoted.
 
