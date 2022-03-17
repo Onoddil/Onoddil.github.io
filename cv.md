@@ -27,7 +27,7 @@ Wilson Tom J., in review; Overcoming Separation Between Counterparts Due to Unkn
 [Wilson Tom J., Naylor T., 2018, MNRAS, 481, 2148](https://ui.adsabs.harvard.edu/abs/2018MNRAS.481.2148W/abstract); A Contaminant-Free Catalogue of _Gaia_ DR2-_WISE_ Galactic Plane Matches: Including the Effects of Crowding in the Cross-Matching of Photometric Catalogues
 
 [Wilson Tom J., Naylor T., 2018, MNRAS, 473, 5570](https://ui.adsabs.harvard.edu/abs/2018MNRAS.473.5570W/abstract); Improving Catalogue Matching By Supplementing Astrometry with Additional Photometric Information\
-\ \ \ \ [VizieR Online Data Catalog](https://ui.adsabs.harvard.edu/abs/2018yCat.4035....0W/abstract): Gaia DR2-WISE Galactic Plane Matches (Wilson+, 2018)
+&nbsp;&nbsp;&nbsp;&nbsp; [VizieR Online Data Catalog](https://ui.adsabs.harvard.edu/abs/2018yCat.4035....0W/abstract): Gaia DR2-WISE Galactic Plane Matches (Wilson+, 2018)
 
 [Wilson Tom J., Naylor T., 2017, MNRAS, 469, 2517](https://ui.adsabs.harvard.edu/abs/2017MNRAS.468.2517W/abstract); The Effect of Unresolved Contaminant Stars on the Cross-matching of Photometric Catalogues
 
@@ -50,7 +50,7 @@ Wilson Tom J., in review; Overcoming Separation Between Counterparts Due to Unkn
 [Wakeford H. R., Sing D. K., Deming D., Lewis N. K., Goyal J., Wilson T. J., et al., 2018, AJ, 155, 29](https://ui.adsabs.harvard.edu/abs/2018AJ....155...29W/abstract); The Complete Transmission Spectrum of WASP-39b with a Precise Water Constraint
 
 [Rumble D., Hatchell J., Pattle K., Kirk H., Wilson T., et al., 2016, MNRAS, 460, 4150](https://ui.adsabs.harvard.edu/abs/2016MNRAS.460.4150R/abstract); The JCMT Gould Belt Survey: Evidence for Radiative Heating and Contamination in the W40 Complex\
-\ \ \ \ [VizieR Online Data Catalog](https://ui.adsabs.harvard.edu/abs/2017yCat..74604150R/abstract): JCMT Gould Belt Survey: W40 complex (Rumble+, 2016)
+&nbsp;&nbsp;&nbsp;&nbsp; [VizieR Online Data Catalog](https://ui.adsabs.harvard.edu/abs/2017yCat..74604150R/abstract): JCMT Gould Belt Survey: W40 complex (Rumble+, 2016)
 
 [Rees J., Wilson T., et al., 2016, IAUS, 314, 205](https://ui.adsabs.harvard.edu/abs/2016IAUS..314..205R/abstract); The Age of Taurus: Environmental Effects on Disc Lifetimes
 
