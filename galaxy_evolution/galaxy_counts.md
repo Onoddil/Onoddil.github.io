@@ -128,23 +128,27 @@ Loveday et al. (2012, MNRAS, 420, 1239)
 - Table 5
 - Conversion from units of $$h^3\,\mathrm{Mpc}^{-3}$$ and $$M^* - 5\log_{10}(h)$$ using $$h=0.7$$
 - $$M^*_0$$ translated from $$z_0 = 0.1$$ to $$z=0$$
+- Colour cut between "blue" and "red" galaxies (equation 3)
 
 Loveday et al. (2015, MNRAS, 451, 1540)
 
 - Tables 3 and 4, Mean Probability Petrosian
 - Conversion from units of $$h^3\,\mathrm{Mpc}^{-3}$$ and $$M^* - 5\log_{10}(h)$$ using $$h=0.7$$
 - $$M^*_0$$ translated from $$z_0 = 0.1$$ to $$z=0$$
+- Colour cut between "blue" and "red" galaxies (equation 2)
 
 Kelvin et al. (2014, MNRAS, 439, 1245)
 
 - Table 9
 - $$H_0 = 70\,\mathrm{km}\,\mathrm{s}^{-1}\,\mathrm{kpc}$$ gives $$h=1$$ so no conversion of values necessary
+- Classification on morphological grounds into spheroid- and disc-dominated primarily
 
 Lin et al. (1999, ApJ, 518, 533)
 
 - Tables 1 and 2, $$Q_0 = 0.5$$
 - Conversion from units of $$h^3\,\mathrm{Mpc}^{-3}$$ and $$M^* - 5\log_{10}(h)$$ using $$h=0.7$$
 - $$M^*_0$$ translated from $$z_0 = 0.3$$ to $$z=0$$
+- Classification by "SED type" to early and late
 
 Dai et al. (2009, ApJ, 697, 506)
 
@@ -153,17 +157,20 @@ Dai et al. (2009, ApJ, 697, 506)
 - $$M^*_0$$ translated from $$z_0 = 0.25$$ to $$z=0$$
 - $$P$$ and $$Q$$ not used in fitting $$P(\log_{10}(\lambda / \mu\mathrm{m}))$$ or $$Q(P)$$, but has its $$Q$$ values represented in Figure 1 of Wilson (2022, RNAAS, ...) at $$P = 0$$, the value fixed during the derivation for these parameters
 - $$M^*$$ quoted in the Vega magnitude system, so for self-consistency had its values converted to the AB system using [table 4.2, IRAC instrument handbook](https://irsa.ipac.caltech.edu/data/SPITZER/docs/irac/iracinstrumenthandbook/14/#_Toc82083799)
+- Galaxy classification based on SED fitting, with assignment to "early" type if fit good enough, else "late" are "not early" type objects
 
 Kochanek et al. (2001, ApJ 560 566)
 
 - Table 3
 - Conversion from units of $$h^3\,\mathrm{Mpc}^{-3}$$ and $$M^* - 5\log_{10}(h)$$ using $$h=0.7$$
 - $$M^*$$ quoted in the Vega magnitude system, so for self-consistency had its values converted to the AB system using the [Cohen et al. (2003, AJ, 126, 1090)](https://ui.adsabs.harvard.edu/abs/2003AJ....126.1090C/abstract) values
+- Early-late type split based on $$T$$-type
 
 Driver et al. (2012, MNRAS, 427, 3244)
 
 - Tables 5 and 6
 - Conversion from units of $$M^* - 5\log_{10}(h)$$ using $$h=0.7$$
+- Split by visual inspection and combined Sersic index, colour cut selection; elliptical vs not-elliptical classification
 - Due to an apparent bias towards assigning objects as "blue" galaxies, do not use $$\phi^*$$ values; if the values of $$\phi^*$$ were used, units are $$(0.5\,\mathrm{mag})^{-1}$$ and hence would need correcting by a factor two
 
 Mortlock et al. (2017, MNRAS, 465, 672)
@@ -171,7 +178,8 @@ Mortlock et al. (2017, MNRAS, 465, 672)
 - Table 4
 - Conversion from units of $$h^3\,\mathrm{Mpc}^{-3}$$ and $$M^* - 5\log_{10}(h)$$ using $$h=0.7$$
 - Parameters quoted as $$M^*$$, $$\phi^*$$, $$\alpha$$ for various $$z$$ values; linear slopes fit for using the original bin values
-- Both red and blue parameters have significant correlation and hence overall uncertainties underestimated, statistical uncertainty padded from least-squared fit quoted values
+- Both sets of parameters have significant correlation and hence overall uncertainties underestimated, statistical uncertainty padded from least-squared fit quoted values
+- No distinction between red and blue, just a simultaneous double Schechter function fit
 
 Arnouts et al. (2007, A&A, 476, 137)
 
@@ -179,18 +187,21 @@ Arnouts et al. (2007, A&A, 476, 137)
 - Conversion from units of $$h^3\,\mathrm{Mpc}^{-3}$$ and $$M^* - 5\log_{10}(h)$$ using $$h=0.7$$
 - Parameters quoted as $$M^*$$, $$\phi^*$$, $$\alpha$$ for various $$z$$ values; linear slopes fit for using the original bin values
 - Red parameters have significant correlation and hence overall uncertainties underestimated, statistical uncertainty padded from least-squared fit quoted values
+- Red/quiescent vs blue/active galaxy split by colour bimodality and SED fitting, ultimately decided by SED fitting
 
 Cirasuolo et al. (2007, MNRAS, 380, 585)
 
 - Table 2
 - Conversion from units of $$h^3\,\mathrm{Mpc}^{-3}$$ and $$M^* - 5\log_{10}(h)$$ using $$h=0.7$$
 - Parameters quoted as $$M^*$$, $$\phi^*$$, $$\alpha$$ for various $$z$$ values; linear slopes fit for using the original bin values
+- "Red" and "blue" galaxies split by a colour cut (equation 2)
 
 Loveday (2014, IAUS, 306, 40)
 
 - Table 1
 - Conversion from units of $$h^3\,\mathrm{Mpc}^{-3}$$ and $$M^* - 5\log_{10}(h)$$ using $$h=0.7$$
 - Uncertainties in $$P$$ and $$Q$$ estimated by eye from two-dimensional $$\chi^2$$ contours
+- Unspecified blue-red galaxy split, likely from the GAMA-II sample, Driver et al. (2011, MNRAS, 413, 971)
 
 Zucca et al. (2009, A&A, 508, 1217)
 
@@ -198,6 +209,7 @@ Zucca et al. (2009, A&A, 508, 1217)
 - $$H_0 = 70\,\mathrm{km}\,\mathrm{s}^{-1}\,\mathrm{kpc}$$ gives $$h_{70}=1$$ so no conversion of values necessary
 - Parameters quoted as $$M^*$$, $$\phi^*$$, $$\alpha$$ for various $$z$$ values; linear slopes fit for using the original bin values
 - Both red and blue parameters have significant correlation and hence overall uncertainties underestimated, statistical uncertainty padded from least-squared fit quoted values
+- Galaxy split done by spectrophotometric class through $$\chi^2$$ fitting
 
 Willmer et al. (2006, ApJ, 647, 853)
 
@@ -205,6 +217,7 @@ Willmer et al. (2006, ApJ, 647, 853)
 - $$H_0 = 70\,\mathrm{km}\,\mathrm{s}^{-1}\,\mathrm{kpc}$$ gives $$h=1$$ so no conversion of values necessary
 - Uncertainties on $$\alpha$$ set manually due to fixed value
 - Parameters quoted as $$M^*$$, $$\phi^*$$, $$\alpha$$ for various $$z$$ values; linear slopes fit for using the original bin values
+- "Red" and "blue" galaxies split by a colour cut (equation 19)
 
 Cool et al. (2012, ApJ, 748, 10)
 
@@ -212,6 +225,7 @@ Cool et al. (2012, ApJ, 748, 10)
 - Conversion from units of $$h^3\,\mathrm{Mpc}^{-3}$$ and $$M^* - 5\log_{10}(h)$$ using $$h=0.7$$
 - $$M^*_0$$translated from $$z_0 = 0.1$$ to $$z=0$$
 - Uncertainties on $$\alpha$$ set manually due to fixed value
+- "Red" and "blue" galaxies split by a colour cut (equation 3)
 
 Beare et al. (2019, ApJ, 873, 78)
 
@@ -219,6 +233,7 @@ Beare et al. (2019, ApJ, 873, 78)
 - $$H_0 = 70\,\mathrm{km}\,\mathrm{s}^{-1}\,\mathrm{kpc}$$ gives $$h_{70}=1$$ so no conversion of values necessary
 - Uncertainties on $$\alpha$$ set manually due to fixed value
 - Parameters quoted as $$M^*$$, $$\phi^*$$, $$\alpha$$ for various $$z$$ values; linear slopes fit for using the original bin values
+- Quiescent and star-forming galaxies divided by a colour cut (equation 6)
 
 Lim et al. (2020, ApJ, 889, 80)
 
@@ -231,6 +246,6 @@ Moutard et al. (2020, MNRAS, 494, 1894)
 
 - Table 2
 - $$H_0 = 70\,\mathrm{km}\,\mathrm{s}^{-1}\,\mathrm{kpc}$$ gives $$h=1$$ so no conversion of values necessary
-- Assume all galaxies are blue in the UV bands where single Schechter functions are fit
+- Assume all galaxies are blue in the UV bands where single Schechter functions are fit; U-band is a simple simultaneous fit with no dataset splitting
 - Parameters quoted as $$M^*$$, $$\phi^*$$, $$\alpha$$ for various $$z$$ values; linear slopes fit for using the original bin values
 - Only take the UV bands due to abnormal red galaxy $$\phi$$ normalisation values in double Schechter U-band parameterisation
