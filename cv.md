@@ -14,13 +14,16 @@ MPhys in Physics with Astrophysics, First Class Honours, University of Exeter, 2
 
 ## Grants and Awards
 
-Co-I STFC Grant, "UK Involvement in LSST: Phase B (Exeter Component)", £438,000
+2022, "Above and Beyond" Award, University of Exeter
+2019-2022, Co-I STFC Grant, "UK Involvement in LSST: Phase B (Exeter Component)", £438,000
 
 ## First Author Publications
 
 Wilson Tom J., Naylor T., in prep.; Improvements to the Astrometric Uncertainty Function: Updated Algorithms for Astrometric Perturbations due to Unresolved Contaminants in Background-Dominated Sources and More Accurate Flux Contaminations
 
 Wilson Tom J., in review; Overcoming Separation Between Counterparts Due to Unknown Proper Motions in Catalogue Cross-Matching
+
+[Wilson Tom J., 2022, RNAAS, 6, 60](https://iopscience.iop.org/article/10.3847/2515-5172/ac60a6); A Parameterized Model for Differential Galaxy Counts at Any Wavelength
 
 [Wilson Tom J., 2021, RNAAS, 5, 265](https://ui.adsabs.harvard.edu/abs/2021RNAAS...5..265W/abstract); On the Use of Evidence and Goodness-of-Fit Metrics in Exoplanet Atmosphere Interpretation
 
@@ -125,7 +128,7 @@ Member of LSST SMWLVSC Crowded Stellar Field Working Group
 
 ## Teaching and Outreach
 
-Undergraduate Astrophysics Lab Demonstrator, 2013-2021
+Undergraduate Astrophysics Lab Demonstrator, 2013-2022
 
 Undergraduate Python Demonstrator, 2021
 
