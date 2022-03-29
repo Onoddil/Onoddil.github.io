@@ -15,6 +15,7 @@ MPhys in Physics with Astrophysics, First Class Honours, University of Exeter, 2
 ## Grants and Awards
 
 2022, "Above and Beyond" Award, University of Exeter
+
 2019-2022, Co-I STFC Grant, "UK Involvement in LSST: Phase B (Exeter Component)", £438,000
 
 ## First Author Publications
