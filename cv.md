@@ -24,7 +24,7 @@ Wilson Tom J., Naylor T., in prep.; Improvements to the Astrometric Uncertainty 
 
 Wilson Tom J., in review; Overcoming Separation Between Counterparts Due to Unknown Proper Motions in Catalogue Cross-Matching
 
-[Wilson Tom J., 2022, RNAAS, 6, 60](https://iopscience.iop.org/article/10.3847/2515-5172/ac60a6); A Parameterized Model for Differential Galaxy Counts at Any Wavelength
+[Wilson Tom J., 2022, RNAAS, 6, 60](https://ui.adsabs.harvard.edu/abs/2022RNAAS...6...60W/abstract); A Parameterized Model for Differential Galaxy Counts at Any Wavelength
 
 [Wilson Tom J., 2021, RNAAS, 5, 265](https://ui.adsabs.harvard.edu/abs/2021RNAAS...5..265W/abstract); On the Use of Evidence and Goodness-of-Fit Metrics in Exoplanet Atmosphere Interpretation
 
