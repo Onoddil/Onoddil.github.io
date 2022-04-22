@@ -125,7 +125,7 @@ Peer review referee for AJ
 
 Member of LSST Stars, Milky Way and Local Volume Science Collaboration (SMWLVSC)
 
-Member of LSST SMWLVSC Crowded Stellar Field Working Group
+Member of LSST SMWLVSC Crowded Stellar Field Task Force
 
 ## Teaching and Outreach
 
