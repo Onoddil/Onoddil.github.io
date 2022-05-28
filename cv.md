@@ -63,8 +63,10 @@ Wilson Tom J., in review; Overcoming Separation Between Counterparts Due to Unkn
 [//]: # Rees J., Wilson Tom J., et al., in prep.; Pre-main-sequence Isochrones -- IV. the Age of Taurus and Increased Disc Lifetimes in Low-Density Environments
 
 ## Talks and Conferences
-##### 2 invited seminar talks, 3 invited conference talks, 4 contributed seminar talks, 12 contributed conference talks, 4 contributed conference posters.
+##### 3 invited seminar talks, 3 invited conference talks, 4 contributed seminar talks, 12 contributed conference talks, 4 contributed conference posters.
 Links to talk slides and posters given below where available
+
+May 2022, Carnegie EPL, Invited Seminar [Talk](Talks/unresolved_contaminants_carnegie_27052022.pdf)
 
 February 2022, University of Delaware, Invited Seminar [Talk](Talks/unresolved_contaminants_delaware_15022022.pdf)
 
