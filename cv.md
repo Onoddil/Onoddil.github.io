@@ -37,6 +37,8 @@ Wilson Tom J., in review; Overcoming Separation Between Counterparts Due to Unkn
 
 ## Co-Author Publications
 
+Wilson A. J., Lakeland B. S., Wilson T. J., Naylor T., in review; A Naive Bayes Classifier for identifying Class II YSOs
+
 [Bruno G., Lewis N. K., Valenti J. A., Pagano I., Wilson T. J., et al., 2022, MNRAS, 509, 5030](https://ui.adsabs.harvard.edu/abs/2022MNRAS.509.5030B/abstract); Hiding in Plain Sight: Observing Planet-Starspot Crossings with the _James Webb Space Telescope_
 
 [Bradley L., Sipőcz B., Robitaille T., Tollerud E., Vinícius Z., Deil C., Barbary K., Wilson T. J., et al., 2019-2021](https://ui.adsabs.harvard.edu/abs/2021zndo...4624996B/abstract), DOI:10.5281/zenodo.4624996; astropy/photutils: v0.6 through v1.1.0
@@ -63,12 +65,14 @@ Wilson Tom J., in review; Overcoming Separation Between Counterparts Due to Unkn
 [//]: # Rees J., Wilson Tom J., et al., in prep.; Pre-main-sequence Isochrones -- IV. the Age of Taurus and Increased Disc Lifetimes in Low-Density Environments
 
 ## Talks and Conferences
-##### 3 invited seminar talks, 3 invited conference talks, 4 contributed seminar talks, 12 contributed conference talks, 4 contributed conference posters.
+##### 4 invited seminars, 3 invited conference talks, 4 contributed seminars, 12 contributed conference talks, 4 contributed conference posters.
 Links to talk slides and posters given below where available
 
-May 2022, Carnegie EPL, Invited Seminar [Talk](Talks/unresolved_contaminants_carnegie_27052022.pdf)
+June 2022, Bristol-Cardiff Joint Seminar Series, Invited [Seminar](Talks/unresolved_contaminants_bristol-cardiff_01062022.pdf)
 
-February 2022, University of Delaware, Invited Seminar [Talk](Talks/unresolved_contaminants_delaware_15022022.pdf)
+May 2022, Carnegie EPL, Invited [Seminar](Talks/unresolved_contaminants_carnegie_27052022.pdf)
+
+February 2022, University of Delaware, Invited [Seminar](Talks/unresolved_contaminants_delaware_15022022.pdf)
 
 August 2021, Rubin Observatory Project and Community Workshop, Contributed [Talk](Talks/tomjwilson_rubinpcw2021.pdf)
 
@@ -84,7 +88,7 @@ May 2021, LSST:UK All-Hands Meeting, Contributed [Talk](Talks/tomjwilson_lsstuka
 
 April 2021, UKEXOM 2021, Contributed [Talk](Talks/tomjwilson_ukexom21_goodness_of_fit.pdf); recording [here](https://exoplanet-talks.org/talk/285)
 
-April 2021, University of Exeter, Contributed Seminar [Talk](Talks/unresolved_contaminants_exeter_080421.pdf)
+April 2021, University of Exeter, Contributed [Seminar](Talks/unresolved_contaminants_exeter_080421.pdf)
 
 March 2021, Cool Stars 20.5, Contributed [Poster](Talks/TomJWilson_CS20.5Poster_v3.pdf)
 
@@ -92,13 +96,13 @@ October 2020, Royal Astronomical Society Specialist Meeting: TVS with Rubin Obse
 
 August 2020, Rubin Observatory Project and Community Workshop, Contributed [Talk](Talks/unresolvedcontaminants_PCW2020_RRB_tomjwilson.pdf)
 
-July 2020, University of Exeter, Contributed Seminar [Talk](Talks/UnresolvedContaminants_july2020_tuesdaytalk_tomjwilson.pdf)
+July 2020, University of Exeter, Contributed [Seminar](Talks/UnresolvedContaminants_july2020_tuesdaytalk_tomjwilson.pdf)
 
 July 2019, Python in Astronomy 19, Contributed [Talk](Talks/photutils_pyastro19_tomjwilson.pdf)
 
-June 2019, STScI, HotSci@STScI Colloquia, Contributed Seminar [Talk](Talks/UnresolvedContaminants_hotsci_tomwilson.pdf)
+June 2019, STScI, HotSci@STScI Colloquia, Contributed [Seminar](Talks/UnresolvedContaminants_hotsci_tomwilson.pdf)
 
-March 2019, STScI, Friday Science Coffee, Contributed Seminar [Talk](Talks/science_coffee_towilson.pdf)
+March 2019, STScI, Friday Science Coffee, Contributed [Seminar](Talks/science_coffee_towilson.pdf)
 
 February 2019, TESS Data Workshop, STScI, Contributed [Talk](Talks/UnresolvedContaminants_TESS_tomwilson.pdf)
 
@@ -110,7 +114,7 @@ March 2018, Science with Precision Astrometry, Contributed [Poster](Talks/TomJWi
 
 September 2017, Cardiff Star Formation Workshop, Contributed [Talk](Talks/UnresolvedContaminants_Cardiff19917.pdf)
 
-July 2016, NASA Goddard Space Flight Center, Invited Seminar [Talk](Talks/Goddard.pdf)
+July 2016, NASA Goddard Space Flight Center, Invited [Seminar](Talks/Goddard.pdf)
 
 June 2016, Cool Stars 19, Contributed Poster
 
