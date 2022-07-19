@@ -65,8 +65,12 @@ Wilson A. J., Lakeland B. S., Wilson T. J., Naylor T., in review; A Naive Bayes 
 [//]: # Rees J., Wilson Tom J., et al., in prep.; Pre-main-sequence Isochrones -- IV. the Age of Taurus and Increased Disc Lifetimes in Low-Density Environments
 
 ## Talks and Conferences
-##### 4 invited seminars, 3 invited conference talks, 4 contributed seminars, 13 contributed conference talks, 4 contributed conference posters.
+##### 4 invited seminars, 3 invited conference talks, 4 contributed seminars, 14 contributed conference talks, 5 contributed conference posters.
 Links to talk slides and posters given below where available
+
+July 2022, National Astronomy Meeting 2022, Contributed [Talk](Talks/tomjwilson_nam2022_project4_rubincrossmatches.pdf)
+
+July 2022, Cool Stars 21, Contributed [Poster](Talks/TomJWilson_CS21Poster_v1.pdf)
 
 June 2022, Asteroseismology MW-Gaia Workshop, Contributed [Talk](Talks/tomjwilson_unresolvedcontaminants_mwgaia.pdf)
 
@@ -129,7 +133,7 @@ May 2021, LSST:UK All-Hands Meeeting, Local Organising Committee
 
 June 2019, Hubble Support Scientist for Cycle 29 Time Allocation Committee
 
-Peer review referee for AJ
+Peer review referee for AAS Journals and JOSS
 
 Member of LSST Stars, Milky Way and Local Volume Science Collaboration (SMWLVSC)
 
