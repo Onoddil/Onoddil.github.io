@@ -39,6 +39,8 @@ Wilson Tom J., in review; Overcoming Separation Between Counterparts Due to Unkn
 
 Wilson A. J., Lakeland B. S., Wilson T. J., Naylor T., in review; A Naive Bayes Classifier for identifying Class II YSOs
 
+[Astropy Collaboration, ..., Wilson T. J., et al., 2022, ApJ, 935, 167](https://ui.adsabs.harvard.edu/abs/2022ApJ...935..167A/abstract); The Astropy Project: Sustaining and Growing a Community-oriented Open-source Project and the Latest Major Release (v5.0) of the Core Package
+
 [Bruno G., Lewis N. K., Valenti J. A., Pagano I., Wilson T. J., et al., 2022, MNRAS, 509, 5030](https://ui.adsabs.harvard.edu/abs/2022MNRAS.509.5030B/abstract); Hiding in Plain Sight: Observing Planet-Starspot Crossings with the _James Webb Space Telescope_
 
 [Bradley L., Sipőcz B., Robitaille T., Tollerud E., Vinícius Z., Deil C., Barbary K., Wilson T. J., et al., 2019-2021](https://ui.adsabs.harvard.edu/abs/2021zndo...4624996B/abstract), DOI:10.5281/zenodo.4624996; astropy/photutils: v0.6 through v1.1.0
