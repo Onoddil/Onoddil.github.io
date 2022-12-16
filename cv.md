@@ -133,7 +133,7 @@ April 2015, BECSS Bristol, Contributed [Talk](Talks/BECSS.pdf)
 March 2015, Milky Way Astrophysics from Wide-Field Surveys, Contributed Talk
 
 ## Committee and Service Work
-May 2021, LSST:UK All-Hands Meeeting, Local Organising Committee
+May 2021, LSST:UK All-Hands Meeting, Local Organising Committee
 
 June 2019, Hubble Support Scientist for Cycle 29 Time Allocation Committee
 
