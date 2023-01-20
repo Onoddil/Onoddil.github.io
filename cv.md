@@ -16,13 +16,13 @@ MPhys in Physics with Astrophysics, First Class Honours, University of Exeter, 2
 
 2022, "Above and Beyond" Award, University of Exeter
 
-2019-2022, Co-I STFC Grant, "UK Involvement in LSST: Phase B (Exeter Component)", £438,000
+2019-2023, Co-I STFC Grant, "UK Involvement in LSST: Phase B (Exeter Component)", £438,000
 
 ## First Author Publications
 
 Wilson Tom J., Naylor T., in prep.; Improvements to the Astrometric Uncertainty Function: Updated Algorithms for Astrometric Perturbations due to Unresolved Contaminants in Background-Dominated Sources and More Accurate Flux Contaminations
 
-Wilson Tom J., in review; Overcoming Separation Between Counterparts Due to Unknown Proper Motions in Catalogue Cross-Matching
+[Wilson Tom J., 2023, RASTI, 2, 1](https://academic.oup.com/rasti/article/2/1/1/6960586); Overcoming Separation Between Counterparts Due to Unknown Proper Motions in Catalogue Cross-Matching
 
 [Wilson Tom J., 2022, RNAAS, 6, 60](https://ui.adsabs.harvard.edu/abs/2022RNAAS...6...60W/abstract); A Parameterized Model for Differential Galaxy Counts at Any Wavelength
 
