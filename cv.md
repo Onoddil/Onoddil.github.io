@@ -37,13 +37,13 @@ Wilson Tom J., Naylor T., in prep.; Improvements to the Astrometric Uncertainty 
 
 ## Co-Author Publications
 
-Wilson A. J., Lakeland B. S., Wilson T. J., Naylor T., in review; A Naive Bayes Classifier for identifying Class II YSOs
+Wilson A. J., Lakeland B. S., Wilson T. J., Naylor T., 2023, MNRAS, 521, 354; A Naive Bayes Classifier for identifying Class II YSOs
 
 [Astropy Collaboration, ..., Wilson T. J., et al., 2022, ApJ, 935, 167](https://ui.adsabs.harvard.edu/abs/2022ApJ...935..167A/abstract); The Astropy Project: Sustaining and Growing a Community-oriented Open-source Project and the Latest Major Release (v5.0) of the Core Package
 
 [Bruno G., Lewis N. K., Valenti J. A., Pagano I., Wilson T. J., et al., 2022, MNRAS, 509, 5030](https://ui.adsabs.harvard.edu/abs/2022MNRAS.509.5030B/abstract); Hiding in Plain Sight: Observing Planet-Starspot Crossings with the _James Webb Space Telescope_
 
-[Bradley L., Sipőcz B., Robitaille T., Tollerud E., Vinícius Z., Deil C., Barbary K., Wilson T. J., et al., 2019-2021](https://ui.adsabs.harvard.edu/abs/2021zndo...4624996B/abstract), DOI:10.5281/zenodo.4624996; astropy/photutils: v0.6 through v1.1.0
+[Bradley L., Sipőcz B., Robitaille T., Tollerud E., Vinícius Z., Deil C., Barbary K., Wilson T. J., et al., 2019-2022](https://ui.adsabs.harvard.edu/abs/2022zndo...7419741B/abstract), DOI:10.5281/zenodo.7419741; astropy/photutils: v0.6 through v1.6.0
 
 [Lewis N. K., ..., Wilson T. J., et al., 2020, ApJL, 902, 19](https://ui.adsabs.harvard.edu/abs/2020ApJ...902L..19L/abstract); Into the UV: The Atmosphere of the Hot Jupiter HAT-P-41b Revealed
 
@@ -67,8 +67,10 @@ Wilson A. J., Lakeland B. S., Wilson T. J., Naylor T., in review; A Naive Bayes 
 [//]: # Rees J., Wilson Tom J., et al., in prep.; Pre-main-sequence Isochrones -- IV. the Age of Taurus and Increased Disc Lifetimes in Low-Density Environments
 
 ## Talks and Conferences
-##### 4 invited seminars, 3 invited conference talks, 4 contributed seminars, 15 contributed conference talks, 5 contributed conference posters.
+##### 4 invited seminars, 4 invited conference talks, 4 contributed seminars, 15 contributed conference talks, 5 contributed conference posters.
 Links to talk slides and posters given below where available
+
+March 2023, 3rd TVS Software Workshop, Invited [Talk](Talks/wilson_tomj_tvsworkshop_robust_crossmatching_V2.pdf)
 
 October 2022, LSST@Europe4, Contributed [Talk](Talks/wilson_tomj_lssteu4_robust_crossmatching.pdf)
 
