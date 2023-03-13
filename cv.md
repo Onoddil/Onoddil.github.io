@@ -37,7 +37,7 @@ Wilson Tom J., Naylor T., in prep.; Improvements to the Astrometric Uncertainty 
 
 ## Co-Author Publications
 
-Wilson A. J., Lakeland B. S., Wilson T. J., Naylor T., 2023, MNRAS, 521, 354; A Naive Bayes Classifier for identifying Class II YSOs
+[Wilson A. J., Lakeland B. S., Wilson T. J., Naylor T., 2023, MNRAS, 521, 354](https://ui.adsabs.harvard.edu/abs/2023MNRAS.521..354W/abstract); A Naive Bayes Classifier for identifying Class II YSOs
 
 [Astropy Collaboration, ..., Wilson T. J., et al., 2022, ApJ, 935, 167](https://ui.adsabs.harvard.edu/abs/2022ApJ...935..167A/abstract); The Astropy Project: Sustaining and Growing a Community-oriented Open-source Project and the Latest Major Release (v5.0) of the Core Package
 
