@@ -14,6 +14,8 @@ MPhys in Physics with Astrophysics, First Class Honours, University of Exeter, 2
 
 ## Grants and Awards
 
+2023-2025, Co-PI STFC Grant, "UK Involvement in LSST: Phase C (Exeter Component)", £310,000
+
 2022, "Above and Beyond" Award, University of Exeter
 
 2019-2023, Co-I STFC Grant, "UK Involvement in LSST: Phase B (Exeter Component)", £438,000
@@ -67,8 +69,14 @@ Wilson Tom J., Naylor T., in prep.; Improvements to the Astrometric Uncertainty 
 [//]: # Rees J., Wilson Tom J., et al., in prep.; Pre-main-sequence Isochrones -- IV. the Age of Taurus and Increased Disc Lifetimes in Low-Density Environments
 
 ## Talks and Conferences
-##### 4 invited seminars, 4 invited conference talks, 4 contributed seminars, 15 contributed conference talks, 5 contributed conference posters.
+##### 4 invited seminars, 4 invited conference talks, 4 contributed seminars, 18 contributed conference talks, 5 contributed conference posters.
 Links to talk slides and posters given below where available
+
+July 2023, National Astronomy Meeting 2023, Contributed Talk
+
+July 2023, National Astronomy Meeting 2023, Contributed Talk
+
+July 2023, National Astronomy Meeting 2023, Contributed Talk
 
 March 2023, 3rd TVS Software Workshop, Invited [Talk](Talks/wilson_tomj_tvsworkshop_robust_crossmatching_V2.pdf)
 
@@ -135,6 +143,8 @@ April 2015, BECSS Bristol, Contributed [Talk](Talks/BECSS.pdf)
 March 2015, Milky Way Astrophysics from Wide-Field Surveys, Contributed Talk
 
 ## Committee and Service Work
+August 2023, Rubin Project and Community Workshop 2023 Crowded Fields Session, Science Organising Committee
+
 May 2021, LSST:UK All-Hands Meeting, Local Organising Committee
 
 June 2019, Hubble Support Scientist for Cycle 29 Time Allocation Committee
@@ -145,7 +155,11 @@ Member of LSST Stars, Milky Way and Local Volume Science Collaboration (SMWLVSC)
 
 Member of LSST SMWLVSC Crowded Stellar Field Task Force
 
+Member of Vera C. Rubin Observatory SIT-Com Commissioning team (Astrometric Science Unit)
+
 ## Teaching and Outreach
+
+Astrophysics Lab Course Re-Write Lead, 2021-
 
 Undergraduate Astrophysics Lab Demonstrator, 2013-2022
 
