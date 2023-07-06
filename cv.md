@@ -72,11 +72,11 @@ Wilson Tom J., Naylor T., in prep.; Improvements to the Astrometric Uncertainty 
 ##### 4 invited seminars, 4 invited conference talks, 4 contributed seminars, 18 contributed conference talks, 5 contributed conference posters.
 Links to talk slides and posters given below where available
 
-July 2023, National Astronomy Meeting 2023, Contributed Talk
+July 2023, National Astronomy Meeting 2023, UK Involvement in LSST, Contributed [Talk](Talks/tomjwilson_nam2023_rubincrossmatches.pdf)
 
-July 2023, National Astronomy Meeting 2023, Contributed Talk
+July 2023, National Astronomy Meeting 2023, 10 years after Herschel, Contributed [Talk](Talks/tomjwilson_nam2023_robust_crossmatching_with_hershel.pdf)
 
-July 2023, National Astronomy Meeting 2023, Contributed Talk
+July 2023, National Astronomy Meeting 2023, Euclid exploitation in the UK, Contributed [Talk](Talks/tomjwilson_nam2023_euclid_rubin_crossmatching.pdf)
 
 March 2023, 3rd TVS Software Workshop, Invited [Talk](Talks/wilson_tomj_tvsworkshop_robust_crossmatching_V2.pdf)
 
