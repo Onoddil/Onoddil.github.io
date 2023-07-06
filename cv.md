@@ -24,7 +24,7 @@ MPhys in Physics with Astrophysics, First Class Honours, University of Exeter, 2
 
 Wilson Tom J., Naylor T., in prep.; Improvements to the Astrometric Uncertainty Function: Updated Algorithms for Astrometric Perturbations due to Unresolved Contaminants in Background-Dominated Sources and More Accurate Flux Contaminations
 
-[Wilson Tom J., 2023, RASTI, 2, 1](https://academic.oup.com/rasti/article/2/1/1/6960586); Overcoming Separation Between Counterparts Due to Unknown Proper Motions in Catalogue Cross-Matching
+[Wilson Tom J., 2023, RASTI, 2, 1](https://ui.adsabs.harvard.edu/abs/2023RASTI...2....1W/abstract); Overcoming Separation Between Counterparts Due to Unknown Proper Motions in Catalogue Cross-Matching
 
 [Wilson Tom J., 2022, RNAAS, 6, 60](https://ui.adsabs.harvard.edu/abs/2022RNAAS...6...60W/abstract); A Parameterized Model for Differential Galaxy Counts at Any Wavelength
 
