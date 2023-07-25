@@ -16,9 +16,9 @@ MPhys in Physics with Astrophysics, First Class Honours, University of Exeter, 2
 
 2023-2025, Co-PI STFC Grant, "UK Involvement in LSST: Phase C (Exeter Component)", £310,000
 
-2022, "Above and Beyond" Award, University of Exeter
+2022, "Above and Beyond" Award, University of Exeter -- extending second-year astrophysics lab experiments and converting from IRAF to Python
 
-2019-2023, Co-I STFC Grant, "UK Involvement in LSST: Phase B (Exeter Component)", £438,000
+2019-2023, Co-writer and lead researcher STFC Grant, "UK Involvement in LSST: Phase B (Exeter Component)", £438,000
 
 ## First Author Publications
 
