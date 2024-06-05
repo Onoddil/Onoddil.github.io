@@ -4,7 +4,9 @@ Click [here](https://onoddil.github.io/CV/tom_j_wilson_cv.pdf) to download Tom J
 
 ## Professional Work and Education
 
-Postdoctoral Research Fellow, University of Exeter, 2019-
+Senior Research Fellow, University of Exeter, 2024-
+
+Postdoctoral Research Fellow, University of Exeter, 2019-2023
 
 Postdoctoral Researcher, Space Telescope Science Institute, 2018-2019
 
