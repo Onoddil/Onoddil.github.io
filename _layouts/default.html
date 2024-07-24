@@ -40,7 +40,9 @@
         <a href=https://ui.adsabs.harvard.edu/search/p_=0&q=orcid%3A0000-0001-6352-9735&sort=date%20desc%2C%20bibcode%20desc>ADS Publications</a><br>
         ORCID: <a href=https://orcid.org/0000-0001-6352-9735>0000-0001-6352-9735</a><br>
         <a href="{{ site.github.owner_url }}">Github</a><br>
+        {% if site.github.is_project_page %}
         <a href="https://twitter.com/Onoddil">Twitter</a>
+        {% endif %}
         </p>
         {% endif %}
 
@@ -62,8 +64,8 @@
       <footer>
         {% if site.github.is_project_page %}
         <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
-        {% endif %}
         <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+        {% endif %}
       </footer>
     </div>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
