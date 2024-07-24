@@ -6,7 +6,7 @@ Click [here](https://onoddil.github.io/CV/tom_j_wilson_cv.pdf) to download Tom J
 
 Senior Research Fellow, University of Exeter, 2024-
 
-Postdoctoral Research Fellow, University of Exeter, 2019-2023
+Postdoctoral Research Fellow, University of Exeter, 2020-2023
 
 Postdoctoral Researcher, Space Telescope Science Institute, 2018-2019
 
@@ -22,7 +22,7 @@ MPhys in Physics with Astrophysics, First Class Honours, University of Exeter, 2
 
 2022, "Above and Beyond" Award, University of Exeter -- extending second-year astrophysics lab experiments and converting from IRAF to Python
 
-2019-2023, Co-writer and lead researcher STFC Grant, "UK Involvement in LSST: Phase B (Exeter Component)", £438,000
+2019-2023, Co-writer and lead researcher STFC Grant, "UK Involvement in LSST: Phase B (Exeter Component)", £440,000
 
 ## First Author Publications
 
@@ -73,8 +73,14 @@ Wilson Tom J., Naylor T., in prep.; Improvements to the Astrometric Uncertainty 
 [//]: # Rees J., Wilson Tom J., et al., in prep.; Pre-main-sequence Isochrones -- IV. the Age of Taurus and Increased Disc Lifetimes in Low-Density Environments
 
 ## Talks and Conferences
-##### 5 invited seminars, 4 invited conference talks, 4 contributed seminars, 21 contributed conference talks, 5 contributed conference posters.
+##### 5 invited seminars, 6 invited conference talks, 4 contributed seminars, 22 contributed conference talks, 5 contributed conference posters.
 Links to talk slides and posters given below where available
+
+July 2024, Rubin Community Workshop 2024, LSST Science Collaborations Plenary, Invited Talk
+
+July 2024, Rubin Community Workshop 2024, Stellar Science and Crowded Fields, Contributed [Talk](Talks/tomjwilson_rcw24_lsstastrometry.pdf)
+
+July 2024, National Astronomy Meeting 2024, Invited [Talk](Talks/tomjwilson_nam2024_rubincrossmatches.pdf)
 
 March 2024, LINCC Tech Talk Series, Invited [Talk](Talks/tomjwilson_lsdb_macauff_crossmatching.pdf)
 
@@ -140,7 +146,7 @@ February 2019, TESS Data Workshop, STScI, Contributed [Talk](Talks/UnresolvedCon
 
 February 2019, UNLV BUFFALO 2019 Meeting, Contributed [Talk](Talks/BUFFALO_2019.pdf)
 
-May 2018, Exeter, First Year PhD Development Day, Invited [Talk](Talks/firstyeardevelopmentday_tomjwilson_python_31518.pdf)
+May 2018, Exeter, First Year PhD Development Day, Invited [Seminar](Talks/firstyeardevelopmentday_tomjwilson_python_31518.pdf)
 
 March 2018, Science with Precision Astrometry, Contributed [Poster](Talks/TomJWilson_SwPAPoster.pdf)
 
