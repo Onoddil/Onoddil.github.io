@@ -73,8 +73,10 @@ Wilson Tom J., Naylor T., in prep.; Improvements to the Astrometric Uncertainty 
 [//]: # Rees J., Wilson Tom J., et al., in prep.; Pre-main-sequence Isochrones -- IV. the Age of Taurus and Increased Disc Lifetimes in Low-Density Environments
 
 ## Talks and Conferences
-##### 5 invited seminars, 6 invited conference talks, 4 contributed seminars, 22 contributed conference talks, 5 contributed conference posters.
+##### 5 invited seminars, 6 invited conference talks, 4 contributed seminars, 23 contributed conference talks, 5 contributed conference posters.
 Links to talk slides and posters given below where available
+
+September 2024, LSST@Europe6, Contributed [Talk](Talks/tomjwilson_lssteurope6_rubincrossmatches.pdf)
 
 July 2024, Rubin Community Workshop 2024, LSST Science Collaborations Plenary, Invited Talk
 
