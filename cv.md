@@ -24,7 +24,7 @@ MPhys in Physics with Astrophysics, First Class Honours, University of Exeter, 2
 
 2019-2023, Co-writer and lead researcher STFC Grant, "UK Involvement in LSST: Phase B (Exeter Component)", £440,000
 
-## First Author Publications
+## First-Author Publications
 
 Wilson Tom J., Naylor T., in prep.; Improvements to the Astrometric Uncertainty Function: Updated Algorithms for Astrometric Perturbations due to Unresolved Contaminants in Background-Dominated Sources and More Accurate Flux Contaminations
 
@@ -73,8 +73,10 @@ Wilson Tom J., Naylor T., in prep.; Improvements to the Astrometric Uncertainty 
 [//]: # Rees J., Wilson Tom J., et al., in prep.; Pre-main-sequence Isochrones -- IV. the Age of Taurus and Increased Disc Lifetimes in Low-Density Environments
 
 ## Talks and Conferences
-##### 6 invited seminars, 6 invited conference talks, 4 contributed seminars, 23 contributed conference talks, 5 contributed conference posters.
+##### 7 invited seminars, 6 invited conference talks, 4 contributed seminars, 23 contributed conference talks, 5 contributed conference posters.
 Links to talk slides and posters given below where available
+
+October 2024, SMWLV Science Collaboration, Invited [Talk](Talks/tomjwilson_ukd_s9_ikc.pdf)
 
 October 2024, Southampton, Invited [Seminar](Talks/unresolved_contaminants_southampton_Oct24.pdf)
 
@@ -173,11 +175,13 @@ June 2019, Hubble Support Scientist for Cycle 29 Time Allocation Committee
 
 Peer review referee for AAS Journals and JOSS
 
+LSST:UK Exec Group, ECR Representative, 2024-
+
 Member of LSST Stars, Milky Way and Local Volume Science Collaboration (SMWLVSC)
 
 Member of LSST SMWLVSC Crowded Stellar Field Task Force
 
-Member of Vera C. Rubin Observatory SIT-Com Commissioning team (Astrometric Science Unit)
+Member of Vera C. Rubin Observatory SIT-Com Commissioning team (Astrometric and Crowded Field Science Units)
 
 ## Teaching and Outreach
 
