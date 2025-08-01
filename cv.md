@@ -18,7 +18,7 @@ MPhys in Physics with Astrophysics, First Class Honours, University of Exeter, 2
 
 2023, LINCC Frameworks Incubator Program, "Integrating Robust Cross-Matching from the LSST:UK into the LINCC Framework", $20,000
 
-2023-2025, Co-PI STFC Grant, "UK Involvement in LSST: Phase C (Exeter Component)", £310,000
+2023-2027, Co-PI STFC Grant, "UK Involvement in LSST: Phase C (Exeter Component)", £510,000
 
 2022, "Above and Beyond" Award, University of Exeter -- extending second-year astrophysics lab experiments and converting from IRAF to Python
 
@@ -26,7 +26,7 @@ MPhys in Physics with Astrophysics, First Class Honours, University of Exeter, 2
 
 ## First-Author Publications
 
-Wilson Tom J., Naylor T., in prep.; Improvements to the Astrometric Uncertainty Function: Updated Algorithms for Astrometric Perturbations due to Unresolved Contaminants in Background-Dominated Sources and More Accurate Flux Contaminations
+[Wilson, Tom J., Naylor T., 2025, LSST SITCOMTN-159](https://sitcomtn-159.lsst.io/); Determining the Accuracy and Precision of Astrometric Positions and Covariances from the LSST Science Pipelines Using Rubin’s Operations Rehearsal 3 Data
 
 [Wilson Tom J., 2023, RASTI, 2, 1](https://ui.adsabs.harvard.edu/abs/2023RASTI...2....1W/abstract); Overcoming Separation Between Counterparts Due to Unknown Proper Motions in Catalogue Cross-Matching
 
@@ -73,8 +73,14 @@ Wilson Tom J., Naylor T., in prep.; Improvements to the Astrometric Uncertainty 
 [//]: # Rees J., Wilson Tom J., et al., in prep.; Pre-main-sequence Isochrones -- IV. the Age of Taurus and Increased Disc Lifetimes in Low-Density Environments
 
 ## Talks and Conferences
-##### 7 invited seminars, 6 invited conference talks, 4 contributed seminars, 23 contributed conference talks, 5 contributed conference posters.
+##### 7 invited seminars, 8 invited conference talks, 4 contributed seminars, 24 contributed conference talks, 5 contributed conference posters.
 Links to talk slides and posters given below where available
+
+July 2025, ADASSx 2025, Invited [Talk](Talks/tomjwilson_ADASSx_SMWLV.pdf)
+
+July 2025, Rubin Community Workshop 2025, Image Quality, Contributed [Talk](Talks/tomjwilson_RCW25.pdf)
+
+July 2025, Rubin Community Workshop 2025, IKCs and IDACs, Invited [Talk](https://docs.google.com/presentation/d/1TIw4YI3mG99U7ZfHoRfOfRnKLokD-pop2ByDoY2vJLk/edit?slide=id.g37112ccc5fe_0_38#slide=id.g37112ccc5fe_0_38)
 
 October 2024, SMWLV Science Collaboration, Invited [Talk](Talks/tomjwilson_ukd_s9_ikc.pdf)
 
@@ -177,7 +183,7 @@ Peer review referee for AAS Journals and JOSS
 
 LSST:UK Exec Group, ECR Representative, 2024-
 
-Member of LSST Stars, Milky Way and Local Volume Science Collaboration (SMWLVSC)
+Co-Chair of LSST Stars, Milky Way and Local Volume Science Collaboration (SMWLVSC), 2025-
 
 Member of LSST SMWLVSC Crowded Stellar Field Task Force
 
