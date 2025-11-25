@@ -181,13 +181,17 @@ June 2019, Hubble Support Scientist for Cycle 29 Time Allocation Committee
 
 Peer review referee for AAS Journals and JOSS
 
-LSST:UK Exec Group, ECR Representative, 2024-
+Co-Chair of LSST:UK Junior Associate Network, 2025-
 
 Co-Chair of LSST Stars, Milky Way and Local Volume Science Collaboration (SMWLVSC), 2025-
 
-Member of LSST SMWLVSC Crowded Stellar Field Task Force
+Member of LSST:UK Exec Group, Junior Associate Network Representative, 2024-
 
-Member of Vera C. Rubin Observatory SIT-Com Commissioning team (Astrometric and Crowded Field Science Units)
+Member of LSST:UK Communications Steering Group, 2025-
+
+Member of LSST SMWLVSC Crowded Stellar Field Task Force, 2022-
+
+Member of Vera C. Rubin Observatory SIT-Com Commissioning team (Astrometric and Crowded Field Science Units), 2022-
 
 ## Teaching and Outreach
 
