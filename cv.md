@@ -73,8 +73,10 @@ MPhys in Physics with Astrophysics, First Class Honours, University of Exeter, 2
 [//]: # Rees J., Wilson Tom J., et al., in prep.; Pre-main-sequence Isochrones -- IV. the Age of Taurus and Increased Disc Lifetimes in Low-Density Environments
 
 ## Talks and Conferences
-##### 7 invited seminars, 8 invited conference talks, 4 contributed seminars, 24 contributed conference talks, 5 contributed conference posters.
+##### 7 invited seminars, 8 invited conference talks, 5 contributed seminars, 24 contributed conference talks, 5 contributed conference posters.
 Links to talk slides and posters given below where available
+
+February 2026, SMWLV Solar Neighborhood Working Group, Invited [Talk](talks/tomjwilson_solar_neighborhood_astrometry.pdf)
 
 July 2025, ADASSx 2025, Invited [Talk](Talks/tomjwilson_ADASSx_SMWLV.pdf)
 
@@ -173,6 +175,12 @@ April 2015, BECSS Bristol, Contributed [Talk](Talks/BECSS.pdf)
 March 2015, Milky Way Astrophysics from Wide-Field Surveys, Contributed Talk
 
 ## Committee and Service Work
+August 2026, Rubin Community Workshop 2026, Science Organising Committee
+
+July 2026, National Astronomy Meeting LSST:UK Junior Associates Network Lunch, Organising Committee Chair
+
+April 2026, LSST:UK \& Euclid Joint Meeting, LSST:UK Science Organising Committee
+
 August 2023, Rubin Project and Community Workshop 2023 Crowded Fields Session, Science Organising Committee
 
 May 2021, LSST:UK All-Hands Meeting, Local Organising Committee
@@ -185,9 +193,9 @@ Co-Chair of LSST:UK Junior Associate Network, 2025-
 
 Co-Chair of LSST Stars, Milky Way and Local Volume Science Collaboration (SMWLVSC), 2025-
 
-Member of LSST:UK Exec Group, Junior Associate Network Representative, 2024-
-
 Member of LSST:UK Communications Steering Group, 2025-
+
+Member of LSST:UK Exec Group, Junior Associate Network Representative, 2024-
 
 Member of LSST SMWLVSC Crowded Stellar Field Task Force, 2022-
 
@@ -195,7 +203,7 @@ Member of Vera C. Rubin Observatory SIT-Com Commissioning team (Astrometric and 
 
 ## Teaching and Outreach
 
-Astrophysics Lab Course Re-Write Lead, 2021-
+Astrophysics Lab Course Re-Write Lead, 2021-2025
 
 Undergraduate Astrophysics Lab Demonstrator, 2013-2022
 
