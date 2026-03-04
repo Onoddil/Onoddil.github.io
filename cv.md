@@ -26,6 +26,8 @@ MPhys in Physics with Astrophysics, First Class Honours, University of Exeter, 2
 
 ## First-Author Publications
 
+[Wilson, Tom J., Naylor T., 2026, LSST SITCOMTN-180](https://sitcomtn-180.lsst.io/); Determining the Accuracy and Precision of Astrometric Positions and Covariances from the LSST Science Pipelines and the Vera C. Rubin Observatory Using LSST's Data Preview 1
+
 [Wilson, Tom J., Naylor T., 2025, LSST SITCOMTN-159](https://sitcomtn-159.lsst.io/); Determining the Accuracy and Precision of Astrometric Positions and Covariances from the LSST Science Pipelines Using Rubin’s Operations Rehearsal 3 Data
 
 [Wilson Tom J., 2023, RASTI, 2, 1](https://ui.adsabs.harvard.edu/abs/2023RASTI...2....1W/abstract); Overcoming Separation Between Counterparts Due to Unknown Proper Motions in Catalogue Cross-Matching
