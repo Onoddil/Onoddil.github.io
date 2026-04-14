@@ -75,8 +75,14 @@ MPhys in Physics with Astrophysics, First Class Honours, University of Exeter, 2
 [//]: # Rees J., Wilson Tom J., et al., in prep.; Pre-main-sequence Isochrones -- IV. the Age of Taurus and Increased Disc Lifetimes in Low-Density Environments
 
 ## Talks and Conferences
-##### 7 invited seminars, 8 invited conference talks, 5 contributed seminars, 24 contributed conference talks, 5 contributed conference posters.
+##### 7 invited seminars, 10 invited conference talks, 5 contributed seminars, 25 contributed conference talks, 5 contributed conference posters.
 Links to talk slides and posters given below where available
+
+April 2026, LSST:UK All-Hands Meeting, Contributed [Talk](Talks/tomjwilson_lsstukahm_macauff.pdf)
+
+April 2026, LSST:UK All-Hands Meeting, Junior Associates Network, Invited [Talk](	Talks/lsst_uk_ahm_jan_summary.pdf)
+
+April 2026, LSST:UK All-Hands Meeting, [SMWLVSC](talks/tomjwilson_LSSTUKAHM_SMWLV.pdf) & [ISSC](Talks/tomjwilson_LSSTUKAHM_ISSC.pdf), Invited Talk
 
 February 2026, SMWLV Solar Neighborhood Working Group, Invited [Talk](talks/tomjwilson_solar_neighborhood_astrometry.pdf)
 
