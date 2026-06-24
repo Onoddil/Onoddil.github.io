@@ -75,7 +75,7 @@ MPhys in Physics with Astrophysics, First Class Honours, University of Exeter, 2
 [//]: # Rees J., Wilson Tom J., et al., in prep.; Pre-main-sequence Isochrones -- IV. the Age of Taurus and Increased Disc Lifetimes in Low-Density Environments
 
 ## Talks and Conferences
-##### 7 invited seminars, 10 invited conference talks, 5 contributed seminars, 25 contributed conference talks, 5 contributed conference posters.
+##### 10 seminars, 12 invited & 25 contributed conference talks, 5 contributed conference posters.
 Links to talk slides and posters given below where available
 
 April 2026, LSST:UK All-Hands Meeting, Contributed [Talk](Talks/tomjwilson_lsstukahm_macauff.pdf)
@@ -94,7 +94,7 @@ July 2025, Rubin Community Workshop 2025, IKCs and IDACs, Invited [Talk](https:/
 
 October 2024, SMWLV Science Collaboration, Invited [Talk](Talks/tomjwilson_ukd_s9_ikc.pdf)
 
-October 2024, Southampton, Invited [Seminar](Talks/unresolved_contaminants_southampton_Oct24.pdf)
+October 2024, Southampton, [Seminar](Talks/unresolved_contaminants_southampton_Oct24.pdf)
 
 September 2024, LSST@Europe6, Contributed [Talk](Talks/tomjwilson_lssteurope6_rubincrossmatches.pdf)
 
@@ -128,11 +128,11 @@ July 2022, Cool Stars 21, Contributed [Poster](Talks/TomJWilson_CS21Poster_v1.pd
 
 June 2022, Asteroseismology MW-Gaia Workshop, Contributed [Talk](Talks/tomjwilson_unresolvedcontaminants_mwgaia.pdf)
 
-June 2022, Bristol-Cardiff Joint Seminar Series, Invited [Seminar](Talks/unresolved_contaminants_bristol-cardiff_01062022.pdf)
+June 2022, Bristol-Cardiff Joint Seminar Series, [Seminar](Talks/unresolved_contaminants_bristol-cardiff_01062022.pdf)
 
-May 2022, Carnegie EPL, Invited [Seminar](Talks/unresolved_contaminants_carnegie_27052022.pdf)
+May 2022, Carnegie EPL, [Seminar](Talks/unresolved_contaminants_carnegie_27052022.pdf)
 
-February 2022, University of Delaware, Invited [Seminar](Talks/unresolved_contaminants_delaware_15022022.pdf)
+February 2022, University of Delaware, [Seminar](Talks/unresolved_contaminants_delaware_15022022.pdf)
 
 August 2021, Rubin Observatory Project and Community Workshop, Contributed [Talk](Talks/tomjwilson_rubinpcw2021.pdf)
 
@@ -148,7 +148,7 @@ May 2021, LSST:UK All-Hands Meeting, Contributed [Talk](Talks/tomjwilson_lsstuka
 
 April 2021, UKEXOM 2021, Contributed [Talk](Talks/tomjwilson_ukexom21_goodness_of_fit.pdf); recording [here](https://exoplanet-talks.org/talk/285)
 
-April 2021, University of Exeter, Contributed [Seminar](Talks/unresolved_contaminants_exeter_080421.pdf)
+April 2021, University of Exeter, [Seminar](Talks/unresolved_contaminants_exeter_080421.pdf)
 
 March 2021, Cool Stars 20.5, Contributed [Poster](Talks/TomJWilson_CS20.5Poster_v3.pdf)
 
@@ -156,25 +156,25 @@ October 2020, Royal Astronomical Society Specialist Meeting: TVS with Rubin Obse
 
 August 2020, Rubin Observatory Project and Community Workshop, Contributed [Talk](Talks/unresolvedcontaminants_PCW2020_RRB_tomjwilson.pdf)
 
-July 2020, University of Exeter, Contributed [Seminar](Talks/UnresolvedContaminants_july2020_tuesdaytalk_tomjwilson.pdf)
+July 2020, University of Exeter, [Seminar](Talks/UnresolvedContaminants_july2020_tuesdaytalk_tomjwilson.pdf)
 
 July 2019, Python in Astronomy 19, Contributed [Talk](Talks/photutils_pyastro19_tomjwilson.pdf)
 
-June 2019, STScI, HotSci@STScI Colloquia, Contributed [Seminar](Talks/UnresolvedContaminants_hotsci_tomwilson.pdf)
+June 2019, STScI, HotSci@STScI Colloquia, [Seminar](Talks/UnresolvedContaminants_hotsci_tomwilson.pdf)
 
-March 2019, STScI, Friday Science Coffee, Contributed [Seminar](Talks/science_coffee_towilson.pdf)
+March 2019, STScI, Friday Science Coffee, [Seminar](Talks/science_coffee_towilson.pdf)
 
 February 2019, TESS Data Workshop, STScI, Contributed [Talk](Talks/UnresolvedContaminants_TESS_tomwilson.pdf)
 
 February 2019, UNLV BUFFALO 2019 Meeting, Contributed [Talk](Talks/BUFFALO_2019.pdf)
 
-May 2018, Exeter, First Year PhD Development Day, Invited [Seminar](Talks/firstyeardevelopmentday_tomjwilson_python_31518.pdf)
+May 2018, Exeter, First Year PhD Development Day, [Seminar](Talks/firstyeardevelopmentday_tomjwilson_python_31518.pdf)
 
 March 2018, Science with Precision Astrometry, Contributed [Poster](Talks/TomJWilson_SwPAPoster.pdf)
 
 September 2017, Cardiff Star Formation Workshop, Contributed [Talk](Talks/UnresolvedContaminants_Cardiff19917.pdf)
 
-July 2016, NASA Goddard Space Flight Center, Invited [Seminar](Talks/Goddard.pdf)
+July 2016, NASA Goddard Space Flight Center, [Seminar](Talks/Goddard.pdf)
 
 June 2016, Cool Stars 19, Contributed Poster
 
@@ -197,6 +197,8 @@ June 2019, Hubble Support Scientist for Cycle 29 Time Allocation Committee
 
 Peer review referee for AAS Journals and JOSS
 
+Member of LSST Informatics and Statistics Science Collaboration Executive Council, 2026-
+
 Co-Chair of LSST:UK Junior Associate Network, 2025-
 
 Co-Chair of LSST Stars, Milky Way and Local Volume Science Collaboration (SMWLVSC), 2025-
@@ -207,7 +209,7 @@ Member of LSST:UK Exec Group, Junior Associate Network Representative, 2024-
 
 Member of LSST SMWLVSC Crowded Stellar Field Task Force, 2022-
 
-Member of Vera C. Rubin Observatory SIT-Com Commissioning team (Astrometric and Crowded Field Science Units), 2022-
+Member of Vera C. Rubin Observatory SIT-Com Commissioning team (Astrometric and Crowded Field Science Units), 2022-2026
 
 ## Teaching and Outreach
 
